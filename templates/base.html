@@ -1,0 +1,120 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" style="height: 100%; margin: 0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+        {% block title %} {% endblock %}
+    </title>
+    <script src="{% static 'js/jquery-1.8.3.js' %}"></script>
+    <script src="{% static 'js/twitter-bootstrap_3.3.7_js_bootstrap.js' %}"></script>
+    <!-- Theme CSS -->
+        <link type="text/css" href="{% static 'css/theme.css' %}" rel="stylesheet">
+
+    <link type="text/css" href="{% static 'css/self.css' %}" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- 顶部导航栏 -->
+<nav class="navbar navbar-expand-lg bg-primary navbar-dark py-4">
+    <div class="container">
+        <a class="navbar-brand" href="{% url 'home' %}"><strong style="font-size: xx-large">CQUT作家</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一站式写作平台
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_example_1"
+            aria-controls="navbar_example_1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar_example_1">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'home' %}">主页</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'news' %}">热点发现</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbar_1_dropdown_1" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">文章生成</a>
+                <div class="dropdown-menu" aria-labelledby="navbar_1_dropdown_1">
+                    <a class="dropdown-item" href="{% url 'locate_generate_by_title' %}">标题生成</a>
+                    <a class="dropdown-item" href="{% url 'locate_generate_by_abstract' %}">摘要生成</a>
+                    <a class="dropdown-item" href="{% url 'locate_generate_by_outline' %}">大纲生成</a>
+                    <a class="dropdown-item" href="{% url 'locate_generate_by_template' %}">模板生成</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'locate_summarize' %}">文本摘要</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">文本改写</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link nav-link-icon" href="#" id="navbar_1_dropdown_3" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i></a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <h6 class="dropdown-header">个人中心</h6>
+                    <a class="dropdown-item" href="">
+                        <span class="float-right badge badge-primary">信息</span>
+                        <i class="fas fa-envelope text-primary"></i>
+                    </a>
+                    <a class="dropdown-item" href="">
+                        <i class="fas fa-cog text-primary"></i>设置
+                    </a>
+                    <div class="dropdown-divider" role="presentation"></div>
+                    <a class="dropdown-item" href="#">
+                        <i class="fas fa-sign-out-alt text-primary"></i>登出
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </div>
+
+</nav>
+
+<!-- 主要内容 -->
+<main class="main" style="min-height:100%; margin-top: 50px">
+    {% block content %}
+
+    {% endblock %}
+    <div style="height: 100px"></div>
+</main>
+
+<!-- 底部 -->
+<footer class="pt-5 pb-3 footer  footer-dark bg-tertiary">
+    <div class="container" >
+        <div class="row">
+            <div class="col">
+                <a href="{% url 'home' %}" style="color: whitesmoke"><strong>CQUT作家</strong></a>
+                <div class="text">重庆理工大学 &nbsp;&nbsp;&nbsp;两江人工智能学院</div>
+                <div class="text"></div>
+            </div>
+            <div class="col">
+                <a href="https://beian.miit.gov.cn/" style="cursor: pointer; color: #495057">渝ICP备2021014980号-1</a>
+                <p class="rText">版权所有©2018-2023重庆理工大学大学自然语言处理实验室</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+
+<!-- Core -->
+<script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+<script src="{% static 'vendor/popper/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap/bootstrap.min.js' %}"></script>
+<!-- FontAwesome 5 -->
+<script src="{% static 'vendor/fontawesome/js/fontawesome-all.min.js' %}" defer></script>
+<!-- Page plugins -->
+<script src="{% static 'vendor/bootstrap-select/js/bootstrap-select.min.js' %}"></script>
+<script src="{% static 'vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js' %}"></script>
+<script src="{% static 'vendor/input-mask/input-mask.min.js' %}"></script>
+<script src="{% static 'vendor/nouislider/js/nouislider.min.js' %}"></script>
+<script src="{% static 'vendor/textarea-autosize/textarea-autosize.min.js' %}"></script>
+<!-- Theme JS -->
+<script src="{% static 'js/theme.js' %}"></script>
+</html>

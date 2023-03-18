@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    热点发现
+{% endblock %}
+
+{% block content %}
+    <h1 class="heading h1 strong-600 text-center mb-5">
+        热点发现
+    </h1>
+
+
+
+    <div class="container">
+        <div class="row">
+            {% for key, value in daily_news.items %}
+                <div class="col-sm">
+                <div class="card" style="width: 33rem;border-color: #0b7ec4;margin-bottom: 12px">
+                    <div class="card-body">
+                        <h4 class="card-title text-center border-bottom border-primary" style="padding-bottom: 5px">
+                            {% if key == 'people' %}
+                                人民网
+                            {% elif key == 'baidu'%}
+                                百度
+                            {% elif key == 'weibo'%}
+                                新浪微博
+                            {% elif key == 'toutiao'%}
+                                今日头条
+                            {% elif key == 'zhihu'%}
+                                知乎
+                            {% endif%}
+                        </h4>
+                        <p class="card-text text-center">更新时间：{{ news.list.1.time|date:"Y-m-d %H:%M" }}</p>
+                        <div style="height:200px;overflow-y: auto">
+                            <ul>
+                                {% for news in value %}
+                                    <li><a href="{{ news.1 }}" style="color: black"> {{ news.0 }}</a></li>
+                                {% endfor %}
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {% endfor %}
+
+        </div>
+    </div>
+{% endblock %}

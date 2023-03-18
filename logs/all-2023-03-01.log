@@ -1,0 +1,1098 @@
+[2023-03-01 12:31:25,837] [newsApp.py:57] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 12:31:36,915] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4734
+[2023-03-01 12:31:40,653] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 6249
+[2023-03-01 12:31:40,785] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 12:31:40,785] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52508)
+
+[2023-03-01 12:33:21,534] [newsApp.py:57] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 12:55:22,622] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 12:55:30,900] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4734
+[2023-03-01 12:55:30,929] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55172)
+
+[2023-03-01 12:55:30,930] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55173)
+
+[2023-03-01 12:55:30,976] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 12:55:30,976] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55175)
+
+[2023-03-01 12:55:32,242] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 6249
+[2023-03-01 12:55:39,648] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 6249
+[2023-03-01 12:55:40,952] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 6249
+[2023-03-01 12:55:41,485] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 6249
+[2023-03-01 12:55:41,984] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 6249
+[2023-03-01 12:55:42,430] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 6249
+[2023-03-01 12:56:27,294] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 6249
+[2023-03-01 13:03:56,290] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 13:03:58,072] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4734
+[2023-03-01 13:03:58,103] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55685)
+
+[2023-03-01 13:03:58,151] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:03:58,152] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55686)
+
+[2023-03-01 13:03:59,698] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /news/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\template\base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endfor'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\News\views.py", line 13, in news
+    return render(request, 'news.html', content)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\template\base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\template\base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 50: 'endfor', expected 'endblock'. Did you forget to register or load this tag?
+[2023-03-01 13:03:59,701] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /news/ HTTP/1.1" 500 180541
+[2023-03-01 13:04:11,187] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 13:04:12,942] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4734
+[2023-03-01 13:04:14,108] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 4923
+[2023-03-01 13:04:26,652] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/twitter-bootstrap_3.3.7_js_bootstrap.js HTTP/1.1" 200 72084
+[2023-03-01 13:05:06,639] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 13:05:08,670] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 4832
+[2023-03-01 13:05:09,847] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 4832
+[2023-03-01 13:05:56,787] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 13:06:31,865] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 13:06:33,424] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31882
+[2023-03-01 13:06:59,216] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 13:07:01,489] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31576
+[2023-03-01 13:07:54,037] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7667
+[2023-03-01 13:07:55,547] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7667
+[2023-03-01 13:07:56,688] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 8336
+[2023-03-01 13:07:58,152] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_template/ HTTP/1.1" 200 4998
+[2023-03-01 13:07:58,767] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 4743
+[2023-03-01 13:08:00,257] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6096
+[2023-03-01 13:08:08,363] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 8336
+[2023-03-01 13:08:12,084] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6096
+[2023-03-01 13:08:16,419] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7667
+[2023-03-01 13:08:22,575] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6096
+[2023-03-01 13:11:58,017] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 8378
+[2023-03-01 13:12:00,526] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/? HTTP/1.1" 200 8378
+[2023-03-01 13:13:11,924] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6096
+[2023-03-01 13:15:15,720] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 13:15:19,253] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6445
+[2023-03-01 13:16:27,563] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4734
+[2023-03-01 13:16:27,643] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56106)
+
+[2023-03-01 13:16:27,644] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56110)
+
+[2023-03-01 13:16:27,733] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:16:27,733] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56114)
+
+[2023-03-01 13:16:28,991] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6445
+[2023-03-01 13:16:49,320] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 13:16:50,736] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4734
+[2023-03-01 13:16:52,375] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6445
+[2023-03-01 13:17:12,037] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 13:17:15,681] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6445
+[2023-03-01 13:19:48,874] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7664
+[2023-03-01 13:19:48,943] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:19:48,943] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56324)
+
+[2023-03-01 13:19:51,097] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6445
+[2023-03-01 13:19:52,993] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 8378
+[2023-03-01 13:19:54,715] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7664
+[2023-03-01 13:19:56,250] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6445
+[2023-03-01 13:19:58,932] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7664
+[2023-03-01 13:20:02,808] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7664
+[2023-03-01 13:20:04,296] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6445
+[2023-03-01 13:20:06,075] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7664
+[2023-03-01 13:22:55,149] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 8716
+[2023-03-01 13:23:27,213] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 8728
+[2023-03-01 13:23:34,882] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6445
+[2023-03-01 13:23:36,660] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 8740
+[2023-03-01 13:24:28,872] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 8708
+[2023-03-01 13:29:30,977] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6835
+[2023-03-01 13:29:31,029] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:29:31,030] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56754)
+
+[2023-03-01 13:29:54,097] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6483
+[2023-03-01 13:29:54,148] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:29:54,148] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56757)
+
+[2023-03-01 13:29:56,266] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6835
+[2023-03-01 13:29:56,314] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:29:56,314] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56758)
+
+[2023-03-01 13:29:58,219] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6483
+[2023-03-01 13:29:59,440] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6835
+[2023-03-01 13:29:59,490] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:29:59,490] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56759)
+
+[2023-03-01 13:31:10,334] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6496
+[2023-03-01 13:31:51,156] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6498
+[2023-03-01 13:31:51,204] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:31:51,204] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56774)
+
+[2023-03-01 13:31:53,015] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6877
+[2023-03-01 13:31:53,072] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:31:53,072] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56780)
+
+[2023-03-01 13:31:57,173] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6498
+[2023-03-01 13:31:59,350] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6877
+[2023-03-01 13:31:59,399] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:31:59,400] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56783)
+
+[2023-03-01 13:32:41,446] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6498
+[2023-03-01 13:32:43,363] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6877
+[2023-03-01 13:32:43,416] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:32:43,416] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56788)
+
+[2023-03-01 13:32:55,763] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6496
+[2023-03-01 13:32:59,213] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6877
+[2023-03-01 13:32:59,262] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:32:59,263] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56789)
+
+[2023-03-01 13:33:00,779] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6496
+[2023-03-01 13:33:39,215] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6508
+[2023-03-01 13:33:39,269] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:33:39,269] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56793)
+
+[2023-03-01 13:33:41,644] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6887
+[2023-03-01 13:33:41,692] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:33:41,692] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56801)
+
+[2023-03-01 13:33:45,045] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6508
+[2023-03-01 13:33:47,099] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6887
+[2023-03-01 13:33:47,149] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:33:47,149] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56803)
+
+[2023-03-01 13:34:36,428] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6508
+[2023-03-01 13:34:39,001] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6865
+[2023-03-01 13:34:39,056] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:34:39,057] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56817)
+
+[2023-03-01 13:41:12,870] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6878
+[2023-03-01 13:41:12,920] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:41:12,921] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57659)
+
+[2023-03-01 13:42:20,972] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7021
+[2023-03-01 13:42:21,020] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:42:21,020] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57674)
+
+[2023-03-01 13:42:31,067] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7021
+[2023-03-01 13:42:31,115] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:42:31,116] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57676)
+
+[2023-03-01 13:44:16,891] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7528
+[2023-03-01 13:44:16,943] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:44:16,943] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57694)
+
+[2023-03-01 13:45:02,593] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7021
+[2023-03-01 13:45:02,655] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:45:02,655] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57700)
+
+[2023-03-01 13:45:06,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_template/ HTTP/1.1" 200 4998
+[2023-03-01 13:45:06,157] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:45:06,157] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57701)
+
+[2023-03-01 13:45:09,057] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7528
+[2023-03-01 13:46:01,341] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7021
+[2023-03-01 13:46:01,395] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:46:01,395] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57703)
+
+[2023-03-01 13:46:05,239] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6508
+[2023-03-01 13:46:05,291] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:46:05,291] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57711)
+
+[2023-03-01 13:46:11,640] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7021
+[2023-03-01 13:46:41,573] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6960
+[2023-03-01 13:46:41,622] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:46:41,622] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57714)
+
+[2023-03-01 13:46:56,956] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7467
+[2023-03-01 13:46:57,010] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:46:57,010] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57720)
+
+[2023-03-01 13:47:01,054] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6506
+[2023-03-01 13:47:01,110] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:47:01,110] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57721)
+
+[2023-03-01 13:47:02,188] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6960
+[2023-03-01 13:47:02,236] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:47:02,237] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57722)
+
+[2023-03-01 13:47:05,246] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7467
+[2023-03-01 13:47:40,301] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6483
+[2023-03-01 13:47:40,353] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:47:40,353] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57723)
+
+[2023-03-01 13:47:42,157] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6937
+[2023-03-01 13:47:42,207] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:47:42,207] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57732)
+
+[2023-03-01 13:47:43,787] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7444
+[2023-03-01 13:47:49,437] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6483
+[2023-03-01 13:48:13,106] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6433
+[2023-03-01 13:48:13,156] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:48:13,156] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57733)
+
+[2023-03-01 13:48:39,876] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6433
+[2023-03-01 13:48:39,928] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:48:39,928] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57740)
+
+[2023-03-01 13:48:41,209] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6887
+[2023-03-01 13:48:41,261] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:48:41,261] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57741)
+
+[2023-03-01 13:48:42,636] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7394
+[2023-03-01 13:48:44,336] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6433
+[2023-03-01 13:48:45,379] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6887
+[2023-03-01 13:48:45,429] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:48:45,430] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57743)
+
+[2023-03-01 13:48:46,746] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7394
+[2023-03-01 13:48:48,187] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_template/ HTTP/1.1" 200 4998
+[2023-03-01 13:48:49,504] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6433
+[2023-03-01 13:48:51,739] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6887
+[2023-03-01 13:48:51,787] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:48:51,787] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57744)
+
+[2023-03-01 13:48:53,185] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7394
+[2023-03-01 13:49:07,530] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6433
+[2023-03-01 13:49:09,075] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6887
+[2023-03-01 13:49:09,125] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:49:09,125] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57745)
+
+[2023-03-01 13:49:23,378] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6887
+[2023-03-01 13:49:47,033] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6887
+[2023-03-01 13:49:47,078] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:49:47,079] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57752)
+
+[2023-03-01 13:49:56,513] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6887
+[2023-03-01 13:49:56,559] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:49:56,559] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57759)
+
+[2023-03-01 13:50:10,982] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6887
+[2023-03-01 13:50:11,030] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:50:11,030] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57761)
+
+[2023-03-01 13:50:22,239] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7394
+[2023-03-01 13:50:22,294] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:50:22,295] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57762)
+
+[2023-03-01 13:51:29,813] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6433
+[2023-03-01 13:51:29,867] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:51:29,867] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57773)
+
+[2023-03-01 13:51:31,120] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6887
+[2023-03-01 13:51:32,302] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7556
+[2023-03-01 13:51:59,174] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7590
+[2023-03-01 13:51:59,224] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:51:59,224] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57774)
+
+[2023-03-01 13:52:11,949] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6887
+[2023-03-01 13:52:12,003] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:52:12,004] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57779)
+
+[2023-03-01 13:52:13,188] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7584
+[2023-03-01 13:52:13,239] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 13:52:13,240] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57780)
+
+[2023-03-01 13:52:29,450] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/twitter-bootstrap_3.3.7_js_bootstrap.js HTTP/1.1" 200 72084
+[2023-03-01 13:52:47,567] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7590
+[2023-03-01 13:53:17,810] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7609
+[2023-03-01 13:53:55,793] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6645
+[2023-03-01 13:53:58,128] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7102
+[2023-03-01 13:54:05,501] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7102
+[2023-03-01 13:54:21,177] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6645
+[2023-03-01 13:54:50,673] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7102
+[2023-03-01 13:55:03,279] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7609
+[2023-03-01 13:56:19,046] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4734
+[2023-03-01 13:56:19,888] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4734
+[2023-03-01 13:56:20,599] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31403
+[2023-03-01 13:56:32,694] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7102
+[2023-03-01 13:56:55,621] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7102
+[2023-03-01 13:56:57,198] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6645
+[2023-03-01 13:56:58,534] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7609
+[2023-03-01 13:57:02,723] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_template/ HTTP/1.1" 200 4998
+[2023-03-01 13:57:04,012] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6645
+[2023-03-01 13:57:16,646] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31403
+[2023-03-01 13:57:34,866] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 4743
+[2023-03-01 13:57:37,074] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 4743
+[2023-03-01 13:58:27,819] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 4858
+[2023-03-01 13:58:51,151] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 4844
+[2023-03-01 14:00:32,733] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5163
+[2023-03-01 14:00:41,045] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5174
+[2023-03-01 14:00:45,269] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5175
+[2023-03-01 14:00:54,528] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7102
+[2023-03-01 14:00:56,101] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5175
+[2023-03-01 14:01:28,213] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5388
+[2023-03-01 14:02:06,162] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5743
+[2023-03-01 14:02:24,180] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6645
+[2023-03-01 14:02:57,941] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5747
+[2023-03-01 14:03:11,809] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5774
+[2023-03-01 14:03:12,724] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5774
+[2023-03-01 14:03:13,281] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5774
+[2023-03-01 14:03:13,474] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5774
+[2023-03-01 14:03:13,650] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5774
+[2023-03-01 14:03:18,592] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5743
+[2023-03-01 14:04:12,447] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5934
+[2023-03-01 14:05:29,255] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5915
+[2023-03-01 14:05:29,306] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:05:29,306] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 57787)
+
+[2023-03-01 14:05:51,970] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5946
+[2023-03-01 14:05:52,034] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:05:52,035] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58073)
+
+[2023-03-01 14:06:22,230] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5965
+[2023-03-01 14:06:22,286] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:06:22,286] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58083)
+
+[2023-03-01 14:07:15,588] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5929
+[2023-03-01 14:07:15,641] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:07:15,641] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58232)
+
+[2023-03-01 14:07:23,923] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5942
+[2023-03-01 14:07:23,976] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:07:23,976] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58235)
+
+[2023-03-01 14:08:09,673] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5962
+[2023-03-01 14:08:09,729] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:08:09,730] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58277)
+
+[2023-03-01 14:08:10,500] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5962
+[2023-03-01 14:08:10,833] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5962
+[2023-03-01 14:08:11,304] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5962
+[2023-03-01 14:08:24,017] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6645
+[2023-03-01 14:08:26,001] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5962
+[2023-03-01 14:08:26,055] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:08:26,055] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58278)
+
+[2023-03-01 14:10:07,871] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7102
+[2023-03-01 14:10:07,925] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:10:07,925] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58365)
+
+[2023-03-01 14:10:13,881] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7609
+[2023-03-01 14:10:13,933] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:10:13,933] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58367)
+
+[2023-03-01 14:10:24,281] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5962
+[2023-03-01 14:10:24,333] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:10:24,334] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58368)
+
+[2023-03-01 14:11:22,019] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5962
+[2023-03-01 14:11:22,071] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:11:22,071] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58376)
+
+[2023-03-01 14:12:25,524] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5928
+[2023-03-01 14:12:25,582] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:12:25,582] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58397)
+
+[2023-03-01 14:12:56,817] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5913
+[2023-03-01 14:12:56,867] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:12:56,867] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58405)
+
+[2023-03-01 14:13:11,841] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5920
+[2023-03-01 14:13:11,893] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:13:11,893] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58408)
+
+[2023-03-01 14:13:42,832] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 5935
+[2023-03-01 14:13:42,884] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:13:42,884] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58417)
+
+[2023-03-01 14:14:28,990] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 6122
+[2023-03-01 14:14:29,042] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:14:29,042] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58422)
+
+[2023-03-01 14:14:45,954] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 6122
+[2023-03-01 14:14:46,008] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:14:46,009] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58425)
+
+[2023-03-01 14:15:35,102] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 6185
+[2023-03-01 14:15:35,159] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:15:35,159] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58442)
+
+[2023-03-01 14:15:48,053] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7609
+[2023-03-01 14:15:48,110] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:15:48,111] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58445)
+
+[2023-03-01 14:15:49,860] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7102
+[2023-03-01 14:15:49,912] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:15:49,913] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58448)
+
+[2023-03-01 14:15:51,136] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6645
+[2023-03-01 14:15:52,390] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7102
+[2023-03-01 14:15:53,551] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7609
+[2023-03-01 14:15:53,601] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:15:53,601] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58449)
+
+[2023-03-01 14:15:54,368] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 6185
+[2023-03-01 14:16:20,300] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 6192
+[2023-03-01 14:16:35,229] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 6138
+[2023-03-01 14:16:35,278] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:16:35,278] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58450)
+
+[2023-03-01 14:16:50,258] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 6138
+[2023-03-01 14:16:50,307] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:16:50,308] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58465)
+
+[2023-03-01 14:17:13,865] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 14:17:17,637] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6645
+[2023-03-01 14:17:17,687] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:17:17,687] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58473)
+
+[2023-03-01 14:17:19,123] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7102
+[2023-03-01 14:17:19,174] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:17:19,174] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58474)
+
+[2023-03-01 14:17:20,483] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7609
+[2023-03-01 14:17:22,894] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31690
+[2023-03-01 14:17:27,169] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 6138
+[2023-03-01 14:17:27,220] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:17:27,220] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58475)
+
+[2023-03-01 14:17:28,234] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6645
+[2023-03-01 14:17:28,287] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:17:28,287] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58476)
+
+[2023-03-01 14:17:28,790] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31690
+[2023-03-01 14:17:29,203] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4734
+[2023-03-01 14:17:29,725] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31690
+[2023-03-01 14:17:30,907] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7102
+[2023-03-01 14:17:32,597] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31690
+[2023-03-01 14:17:39,285] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 6138
+[2023-03-01 14:17:39,336] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:17:39,336] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58477)
+
+[2023-03-01 14:17:40,691] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7102
+[2023-03-01 14:17:40,740] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:17:40,741] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58486)
+
+[2023-03-01 14:17:41,898] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 6138
+[2023-03-01 14:17:43,053] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31690
+[2023-03-01 14:17:44,318] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7102
+[2023-03-01 14:18:07,665] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 7102
+[2023-03-01 14:18:07,714] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:18:07,714] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58487)
+
+[2023-03-01 14:18:15,348] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7609
+[2023-03-01 14:18:15,401] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:18:15,401] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58491)
+
+[2023-03-01 14:19:59,463] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 6138
+[2023-03-01 14:19:59,521] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:19:59,522] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58514)
+
+[2023-03-01 14:20:02,817] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7609
+[2023-03-01 14:20:02,865] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:20:02,865] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58515)
+
+[2023-03-01 14:20:49,020] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7609
+[2023-03-01 14:21:00,516] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58521)
+
+[2023-03-01 14:23:23,946] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6625
+[2023-03-01 14:23:24,013] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 14:23:24,013] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58549)
+
+[2023-03-01 14:23:57,393] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6531
+[2023-03-01 14:23:58,523] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6531
+[2023-03-01 14:23:59,376] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6531
+[2023-03-01 14:24:02,127] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6531
+[2023-03-01 14:42:15,356] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6934
+[2023-03-01 14:42:17,450] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6471
+[2023-03-01 14:42:18,746] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6934
+[2023-03-01 14:42:19,930] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_outline/ HTTP/1.1" 200 7498
+[2023-03-01 14:42:21,205] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_abstract/ HTTP/1.1" 200 6934
+[2023-03-01 14:42:22,226] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_generate_by_title/ HTTP/1.1" 200 6471
+[2023-03-01 14:42:47,025] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 14:42:49,659] [log.py:230] [log:log_response] [WARNING]- Not Found: /locate_generate_by_abstract/
+[2023-03-01 14:42:49,659] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /locate_generate_by_abstract/ HTTP/1.1" 404 3113
+[2023-03-01 14:44:20,430] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 14:44:47,057] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 14:44:52,187] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4690
+[2023-03-01 14:44:53,750] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 6427
+[2023-03-01 14:44:55,069] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 6890
+[2023-03-01 14:44:56,117] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 7454
+[2023-03-01 14:44:57,440] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templateGenerate/ HTTP/1.1" 200 4954
+[2023-03-01 14:44:57,862] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /locate_summarize/ HTTP/1.1" 200 6094
+[2023-03-01 15:10:05,743] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 6890
+[2023-03-01 15:10:10,240] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 6890
+[2023-03-01 15:10:11,230] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 6427
+[2023-03-01 15:10:12,223] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templateGenerate/ HTTP/1.1" 200 4954
+[2023-03-01 15:10:13,372] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 7454
+[2023-03-01 15:14:41,218] [generateApp.py:51] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-01 15:14:43,150] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 15:14:47,372] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 6420
+[2023-03-01 15:15:13,968] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 59104)
+
+[2023-03-01 15:17:32,064] [generateApp.py:51] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-01 15:17:33,998] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 15:17:38,634] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 7497
+[2023-03-01 15:17:38,676] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/generate.js HTTP/1.1" 200 4478
+[2023-03-01 15:17:43,960] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 6470
+[2023-03-01 15:17:50,661] [log.py:230] [log:log_response] [WARNING]- Forbidden (CSRF cookie not set.): /titleGenerate/generate/
+[2023-03-01 15:17:50,661] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /titleGenerate/generate/ HTTP/1.1" 403 2870
+[2023-03-01 15:17:51,356] [log.py:230] [log:log_response] [WARNING]- Forbidden (CSRF cookie not set.): /titleGenerate/generate/
+[2023-03-01 15:17:51,357] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /titleGenerate/generate/ HTTP/1.1" 403 2870
+[2023-03-01 15:17:51,540] [log.py:230] [log:log_response] [WARNING]- Forbidden (CSRF cookie not set.): /titleGenerate/generate/
+[2023-03-01 15:17:51,540] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /titleGenerate/generate/ HTTP/1.1" 403 2870
+[2023-03-01 15:17:51,707] [log.py:230] [log:log_response] [WARNING]- Forbidden (CSRF cookie not set.): /titleGenerate/generate/
+[2023-03-01 15:17:51,708] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /titleGenerate/generate/ HTTP/1.1" 403 2870
+[2023-03-01 15:17:51,875] [log.py:230] [log:log_response] [WARNING]- Forbidden (CSRF cookie not set.): /titleGenerate/generate/
+[2023-03-01 15:17:51,876] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /titleGenerate/generate/ HTTP/1.1" 403 2870
+[2023-03-01 15:17:52,044] [log.py:230] [log:log_response] [WARNING]- Forbidden (CSRF cookie not set.): /titleGenerate/generate/
+[2023-03-01 15:17:52,044] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /titleGenerate/generate/ HTTP/1.1" 403 2870
+[2023-03-01 15:17:52,219] [log.py:230] [log:log_response] [WARNING]- Forbidden (CSRF cookie not set.): /titleGenerate/generate/
+[2023-03-01 15:17:52,220] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /titleGenerate/generate/ HTTP/1.1" 403 2870
+[2023-03-01 15:18:12,170] [generateApp.py:51] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-01 15:18:13,990] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 15:18:17,084] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 6470
+[2023-03-01 15:18:20,030] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 6470
+[2023-03-01 15:18:23,267] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /titleGenerate/generate/ HTTP/1.1" 200 294
+[2023-03-01 15:18:34,486] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 6933
+[2023-03-01 15:18:34,512] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/generate.js HTTP/1.1" 304 0
+[2023-03-01 15:18:38,360] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_abstract/ HTTP/1.1" 200 103
+[2023-03-01 15:18:39,858] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /abstractGenerate/generate/ HTTP/1.1" 200 312
+[2023-03-01 15:18:42,685] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 7497
+[2023-03-01 15:18:45,479] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_outline/ HTTP/1.1" 200 42
+[2023-03-01 15:19:17,922] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 6933
+[2023-03-01 15:19:19,791] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 7497
+[2023-03-01 15:19:36,087] [generateApp.py:51] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-01 15:19:38,172] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 15:19:40,122] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31418
+[2023-03-01 15:19:43,678] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 6470
+[2023-03-01 15:19:43,698] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/generate.js HTTP/1.1" 304 0
+[2023-03-01 15:19:47,993] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /titleGenerate/generate/ HTTP/1.1" 200 300
+[2023-03-01 15:19:50,597] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 6933
+[2023-03-01 15:19:54,846] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_abstract/ HTTP/1.1" 200 99
+[2023-03-01 15:19:56,201] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /abstractGenerate/generate/ HTTP/1.1" 200 300
+[2023-03-01 15:20:00,392] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /abstractGenerate/generate/ HTTP/1.1" 200 301
+[2023-03-01 15:20:04,196] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_abstract/ HTTP/1.1" 200 99
+[2023-03-01 15:20:04,959] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /abstractGenerate/generate/ HTTP/1.1" 200 300
+[2023-03-01 15:20:06,797] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 7498
+[2023-03-01 15:20:09,126] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_abstract/ HTTP/1.1" 200 43
+[2023-03-01 15:20:19,086] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_outline/ HTTP/1.1" 200 84
+[2023-03-01 15:20:19,856] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /outlineGenerate/generate/ HTTP/1.1" 200 258
+[2023-03-01 15:20:22,323] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_abstract/ HTTP/1.1" 200 85
+[2023-03-01 15:20:23,815] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /outlineGenerate/generate/ HTTP/1.1" 200 258
+[2023-03-01 15:20:26,903] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /outlineGenerate/generate/ HTTP/1.1" 200 258
+[2023-03-01 15:20:28,335] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /outlineGenerate/generate/ HTTP/1.1" 200 258
+[2023-03-01 15:20:30,087] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /outlineGenerate/generate/ HTTP/1.1" 200 258
+[2023-03-01 15:20:32,415] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /outlineGenerate/generate/ HTTP/1.1" 200 195
+[2023-03-01 15:25:14,585] [generateApp.py:51] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-01 15:25:16,711] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 15:25:19,541] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4683
+[2023-03-01 15:25:20,130] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31430
+[2023-03-01 15:25:27,831] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 6470
+[2023-03-01 15:25:27,861] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/generate.js HTTP/1.1" 304 0
+[2023-03-01 15:25:30,298] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6231
+[2023-03-01 15:25:30,321] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/summarize.js HTTP/1.1" 200 579
+[2023-03-01 15:25:36,909] [log.py:230] [log:log_response] [WARNING]- Not Found: /summarize/summarize/
+[2023-03-01 15:25:36,909] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /summarize/summarize/ HTTP/1.1" 404 3710
+[2023-03-01 15:25:38,642] [log.py:230] [log:log_response] [WARNING]- Not Found: /summarize/summarize/
+[2023-03-01 15:25:38,642] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /summarize/summarize/ HTTP/1.1" 404 3710
+[2023-03-01 15:25:38,929] [log.py:230] [log:log_response] [WARNING]- Not Found: /summarize/summarize/
+[2023-03-01 15:25:38,929] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /summarize/summarize/ HTTP/1.1" 404 3710
+[2023-03-01 15:25:39,121] [log.py:230] [log:log_response] [WARNING]- Not Found: /summarize/summarize/
+[2023-03-01 15:25:39,121] [basehttp.py:161] [basehttp:log_message] [WARNING]- "POST /summarize/summarize/ HTTP/1.1" 404 3710
+[2023-03-01 15:31:35,159] [generateApp.py:51] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-01 15:31:36,156] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-01 15:31:37,249] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 15:31:43,119] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6231
+[2023-03-01 15:31:43,142] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/summarize.js HTTP/1.1" 304 0
+[2023-03-01 15:31:46,469] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:46,470] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:47,184] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:47,185] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:48,191] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:48,192] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:48,502] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:48,504] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:49,311] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:49,312] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:49,502] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:49,503] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:49,704] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:49,705] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:49,861] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:49,862] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:50,047] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:50,048] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:50,239] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:50,240] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:50,416] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:50,417] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:51,943] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:51,944] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:52,126] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:52,127] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:52,294] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:52,295] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:52,439] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:52,440] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:52,619] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:52,620] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:55,523] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:55,524] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:55,686] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:55,687] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:31:55,856] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /summarize/summarize/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\views.py", line 23, in summarize
+    abstract, keywords = summarizeApp.abstract_keywords_generation(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 57, in abstract_keywords_generation
+    abstract = self.sentences_extraction(inputContent)
+  File "E:\bryan\NLP\MyAiwrite\Summarize\summarizeApp.py", line 70, in sentences_extraction
+    self.tr4s.analyze(text=text, lower=True)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\TextRank4Sentence.py", line 73, in analyze
+    pagerank_config = pagerank_config)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\textrank4zh\util.py", line 190, in sort_sentences
+    scores = nx.pagerank(nx_graph, **pagerank_config)              # this is a dict
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 108, in pagerank
+    G, alpha, personalization, max_iter, tol, nstart, weight, dangling
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\networkx\algorithms\link_analysis\pagerank_alg.py", line 452, in pagerank_scipy
+    import scipy as sp
+ModuleNotFoundError: No module named 'scipy'
+[2023-03-01 15:31:55,857] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /summarize/summarize/ HTTP/1.1" 500 141477
+[2023-03-01 15:43:04,571] [generateApp.py:51] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-01 15:43:05,161] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-01 15:43:06,757] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 15:43:10,964] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6180
+[2023-03-01 15:43:10,986] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/summarize.js HTTP/1.1" 200 579
+[2023-03-01 15:43:14,391] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /summarize/summarize/ HTTP/1.1" 200 658
+[2023-03-01 15:43:24,730] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 6940
+[2023-03-01 15:43:24,762] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/generate.js HTTP/1.1" 304 0
+[2023-03-01 15:43:29,597] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_abstract/ HTTP/1.1" 200 43
+[2023-03-01 15:43:30,434] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /abstractGenerate/generate/ HTTP/1.1" 200 132
+[2023-03-01 16:43:08,609] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 17:24:11,481] [generateApp.py:51] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-01 17:24:12,088] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-01 17:24:13,487] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 17:24:14,852] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4632
+[2023-03-01 17:24:14,875] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.8.3.js HTTP/1.1" 304 0
+[2023-03-01 17:24:14,877] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/twitter-bootstrap_3.3.7_js_bootstrap.js HTTP/1.1" 304 0
+[2023-03-01 17:24:14,882] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 62694)
+
+[2023-03-01 17:24:14,883] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/theme.css HTTP/1.1" 200 210131
+[2023-03-01 17:24:14,982] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 17:24:14,982] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 62693)
+
+[2023-03-01 17:24:16,943] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31117
+[2023-03-01 17:24:16,999] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 17:24:16,999] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 62695)
+
+[2023-03-01 17:24:37,338] [generateApp.py:51] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-01 17:24:37,920] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-01 17:24:39,256] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-01 17:24:40,865] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 4632
+[2023-03-01 17:24:40,888] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 62708)
+
+[2023-03-01 17:24:42,086] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31172
+[2023-03-01 17:24:42,146] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 17:24:42,147] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 62707)
+
+[2023-03-01 17:29:12,479] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31172
+[2023-03-01 17:29:12,535] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 17:29:12,535] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 63012)
+
+[2023-03-01 17:29:13,715] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 6940
+[2023-03-01 17:29:13,742] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/generate.js HTTP/1.1" 304 0
+[2023-03-01 17:29:13,770] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-01 17:29:13,770] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 63013)
+
+[2023-03-01 17:29:15,363] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_abstract/ HTTP/1.1" 200 43
+[2023-03-01 17:36:11,816] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31172
+[2023-03-01 17:36:12,799] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31172
+[2023-03-01 17:36:13,621] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31172
+[2023-03-01 18:57:06,180] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫

@@ -1,0 +1,58 @@
+[2023-03-18 15:03:42,057] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-03-18 15:03:42,455] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-18 15:03:42,743] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-18 15:03:42,927] [newsApp.py:175] [newsApp:weibo_crawler] [ERROR]- (MaxRetryError("HTTPSConnectionPool(host='weibo.com', port=443): Max retries exceeded with url: /ajax/statuses/hot_band (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))"),)
+[2023-03-18 15:03:42,940] [newsApp.py:239] [newsApp:zhihu_crawler] [ERROR]- (MaxRetryError("HTTPSConnectionPool(host='www.zhihu.com', port=443): Max retries exceeded with url: /api/v3/feed/topstory/hot-lists/total?limit=50 (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))"),)
+[2023-03-18 15:03:43,291] [newsApp.py:144] [newsApp:toutiao_crawler] [ERROR]- HTTPSConnectionPool(host='www.toutiao.com', port=443): Max retries exceeded with url: /hot-event/hot-board/?origin=toutiao_pc (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+[2023-03-18 15:03:43,305] [newsApp.py:204] [newsApp:baidu_crawler] [ERROR]- HTTPSConnectionPool(host='top.baidu.com', port=443): Max retries exceeded with url: /board?tab=realtime (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+[2023-03-18 15:03:43,306] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-18 15:03:44,071] [summarizeApp.py:46] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-18 15:03:46,622] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13658
+[2023-03-18 15:03:46,650] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.8.3.js HTTP/1.1" 304 0
+[2023-03-18 15:03:46,652] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/twitter-bootstrap_3.3.7_js_bootstrap.js HTTP/1.1" 304 0
+[2023-03-18 15:03:46,653] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/theme.css HTTP/1.1" 304 0
+[2023-03-18 15:03:46,655] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-18 15:03:46,657] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-18 15:03:46,658] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-18 15:03:46,659] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-18 15:03:46,662] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-18 15:03:46,663] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/popper/popper.min.js HTTP/1.1" 304 0
+[2023-03-18 15:03:46,663] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap/bootstrap.min.js HTTP/1.1" 304 0
+[2023-03-18 15:03:46,663] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-18 15:03:46,663] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[2023-03-18 15:03:46,665] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/fontawesome/js/fontawesome-all.min.js HTTP/1.1" 304 0
+[2023-03-18 15:03:46,667] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+[2023-03-18 15:03:46,668] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/input-mask/input-mask.min.js HTTP/1.1" 304 0
+[2023-03-18 15:03:46,668] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/textarea-autosize/textarea-autosize.min.js HTTP/1.1" 304 0
+[2023-03-18 15:03:46,668] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js HTTP/1.1" 304 0
+[2023-03-18 15:03:46,669] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/nouislider/js/nouislider.min.js HTTP/1.1" 304 0
+[2023-03-18 15:03:46,669] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/theme.js HTTP/1.1" 304 0
+[2023-03-18 15:03:46,701] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 200 218487
+[2023-03-18 15:03:46,722] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-18 15:03:46,723] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 62199)
+
+[2023-03-18 15:03:48,827] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13658
+[2023-03-18 15:03:50,529] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 14294
+[2023-03-18 15:03:51,298] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6817
+[2023-03-18 15:03:51,324] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/summarize.js HTTP/1.1" 200 579
+[2023-03-18 15:03:52,163] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 14294
+[2023-03-18 15:04:19,336] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-03-18 15:04:19,400] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-18 15:04:19,461] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-18 15:04:19,477] [newsApp.py:175] [newsApp:weibo_crawler] [ERROR]- (MaxRetryError("HTTPSConnectionPool(host='weibo.com', port=443): Max retries exceeded with url: /ajax/statuses/hot_band (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))"),)
+[2023-03-18 15:04:19,490] [newsApp.py:239] [newsApp:zhihu_crawler] [ERROR]- (MaxRetryError("HTTPSConnectionPool(host='www.zhihu.com', port=443): Max retries exceeded with url: /api/v3/feed/topstory/hot-lists/total?limit=50 (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))"),)
+[2023-03-18 15:04:19,673] [newsApp.py:144] [newsApp:toutiao_crawler] [ERROR]- HTTPSConnectionPool(host='www.toutiao.com', port=443): Max retries exceeded with url: /hot-event/hot-board/?origin=toutiao_pc (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+[2023-03-18 15:04:19,689] [newsApp.py:204] [newsApp:baidu_crawler] [ERROR]- HTTPSConnectionPool(host='top.baidu.com', port=443): Max retries exceeded with url: /board?tab=realtime (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+[2023-03-18 15:04:19,691] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-18 15:04:20,041] [summarizeApp.py:46] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-18 15:04:23,029] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 14294
+[2023-03-18 15:04:23,082] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-18 15:04:23,082] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 62337)
+
+[2023-03-18 15:04:36,219] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-03-18 15:04:36,286] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-18 15:04:36,348] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-18 15:04:36,959] [summarizeApp.py:46] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-18 15:04:38,299] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-18 15:04:40,684] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 32000
+[2023-03-18 15:04:42,933] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6817

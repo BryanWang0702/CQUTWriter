@@ -1,0 +1,1488 @@
+[2023-03-08 08:52:58,322] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 08:52:58,388] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 08:52:59,568] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 08:52:59,751] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 08:53:03,908] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7480
+[2023-03-08 08:53:03,949] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.8.3.js HTTP/1.1" 304 0
+[2023-03-08 08:53:03,952] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/twitter-bootstrap_3.3.7_js_bootstrap.js HTTP/1.1" 304 0
+[2023-03-08 08:53:03,952] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[2023-03-08 08:53:03,953] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-08 08:53:03,955] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/demo.css HTTP/1.1" 200 6804
+[2023-03-08 08:53:03,964] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/popper/popper.min.js HTTP/1.1" 304 0
+[2023-03-08 08:53:03,966] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap/bootstrap.min.js HTTP/1.1" 304 0
+[2023-03-08 08:53:03,966] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/fontawesome/js/fontawesome-all.min.js HTTP/1.1" 304 0
+[2023-03-08 08:53:03,968] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js HTTP/1.1" 304 0
+[2023-03-08 08:53:03,968] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+[2023-03-08 08:53:03,969] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/input-mask/input-mask.min.js HTTP/1.1" 304 0
+[2023-03-08 08:53:03,970] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/nouislider/js/nouislider.min.js HTTP/1.1" 304 0
+[2023-03-08 08:53:03,971] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/theme.js HTTP/1.1" 304 0
+[2023-03-08 08:53:03,971] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/textarea-autosize/textarea-autosize.min.js HTTP/1.1" 304 0
+[2023-03-08 08:53:03,972] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/theme.css HTTP/1.1" 200 210131
+[2023-03-08 08:53:04,017] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 08:53:04,017] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 08:53:04,023] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 08:53:04,023] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 51967)
+
+[2023-03-08 08:54:38,854] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7441
+[2023-03-08 08:54:38,878] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 08:54:38,878] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 08:54:38,894] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 08:54:38,894] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 08:54:38,909] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 08:54:38,909] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 51968)
+
+[2023-03-08 08:55:20,099] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 9279
+[2023-03-08 08:55:20,120] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 08:55:20,121] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 08:55:20,142] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 08:55:20,142] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:00:22,300] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 9648
+[2023-03-08 09:00:22,321] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:00:22,321] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:00:22,345] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:00:22,345] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:00:25,129] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 9784
+[2023-03-08 09:00:25,166] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/generate.js HTTP/1.1" 200 6906
+[2023-03-08 09:01:06,441] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 9676
+[2023-03-08 09:01:06,460] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:01:06,460] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:01:06,481] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:01:06,482] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:04:42,014] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 9547
+[2023-03-08 09:04:42,036] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:04:42,036] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:04:42,059] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:04:42,059] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:05:06,076] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 9450
+[2023-03-08 09:05:06,094] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:05:06,094] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:05:06,115] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:05:06,115] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:05:25,429] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 9440
+[2023-03-08 09:05:25,453] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:05:25,453] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:05:25,481] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:05:25,482] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:05:34,002] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52086)
+
+[2023-03-08 09:05:34,003] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52084)
+
+[2023-03-08 09:05:34,104] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52095)
+
+[2023-03-08 09:07:32,192] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 9454
+[2023-03-08 09:07:32,241] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:07:32,241] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:07:33,509] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 9454
+[2023-03-08 09:07:33,540] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:07:33,540] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:07:34,207] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 9454
+[2023-03-08 09:07:34,238] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:07:34,238] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:07:36,150] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 9454
+[2023-03-08 09:07:36,179] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:07:36,179] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:07:49,184] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 9450
+[2023-03-08 09:07:49,223] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:07:49,223] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:08:05,476] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 9564
+[2023-03-08 09:08:05,509] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:08:05,509] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:08:20,998] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 9552
+[2023-03-08 09:08:21,024] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:08:21,024] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:08:21,063] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:08:21,063] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:08:25,519] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 9552
+[2023-03-08 09:08:25,551] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:08:25,551] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:08:26,671] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 9688
+[2023-03-08 09:08:28,443] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 10431
+[2023-03-08 09:08:35,193] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 10431
+[2023-03-08 09:08:38,165] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 8928
+[2023-03-08 09:08:38,195] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/summarize.js HTTP/1.1" 200 579
+[2023-03-08 09:08:53,944] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6817
+[2023-03-08 09:08:54,998] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7441
+[2023-03-08 09:08:55,029] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:08:55,029] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:08:55,049] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 09:08:55,050] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 09:08:57,854] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 8320
+[2023-03-08 09:09:10,684] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 8320
+[2023-03-08 09:09:11,835] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 27866
+[2023-03-08 09:09:13,446] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7577
+[2023-03-08 09:09:14,655] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 27866
+[2023-03-08 09:09:19,829] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6817
+[2023-03-08 09:09:34,045] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6841
+[2023-03-08 09:09:47,855] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6289
+[2023-03-08 09:10:01,025] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 09:10:01,087] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 09:10:01,703] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 09:10:02,206] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 09:10:04,194] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6289
+[2023-03-08 09:10:04,223] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/demo.css HTTP/1.1" 200 6804
+[2023-03-08 09:10:08,524] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6289
+[2023-03-08 09:10:08,666] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/demo.css HTTP/1.1" 200 6804
+[2023-03-08 09:10:08,667] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52155)
+
+[2023-03-08 09:10:08,797] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 09:10:08,797] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52163)
+
+[2023-03-08 09:10:13,240] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6289
+[2023-03-08 09:10:13,662] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 27877
+[2023-03-08 09:11:04,133] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 27912
+[2023-03-08 09:11:06,250] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6298
+[2023-03-08 09:11:09,042] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6876
+[2023-03-08 09:11:09,061] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/summarize.js HTTP/1.1" 200 579
+[2023-03-08 09:11:11,164] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6298
+[2023-03-08 09:11:17,059] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6298
+[2023-03-08 09:11:18,434] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6298
+[2023-03-08 09:11:29,644] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6876
+[2023-03-08 09:11:31,954] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7636
+[2023-03-08 09:11:54,479] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7644
+[2023-03-08 09:12:30,575] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7636
+[2023-03-08 09:12:33,862] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52219)
+
+[2023-03-08 09:14:05,313] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7636
+[2023-03-08 09:14:11,735] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 09:14:11,805] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 09:14:12,430] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 09:14:12,910] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 09:14:16,179] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7636
+[2023-03-08 09:15:48,856] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6298
+[2023-03-08 09:16:35,906] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6911
+[2023-03-08 09:16:36,556] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6911
+[2023-03-08 09:16:37,032] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6911
+[2023-03-08 09:17:14,024] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6886
+[2023-03-08 09:17:42,472] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6918
+[2023-03-08 09:19:18,720] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 27936
+[2023-03-08 09:19:21,576] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7678
+[2023-03-08 09:19:29,998] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7678
+[2023-03-08 09:19:55,315] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7697
+[2023-03-08 09:20:10,156] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7696
+[2023-03-08 09:20:22,003] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7696
+[2023-03-08 09:24:57,588] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7811
+[2023-03-08 09:24:57,645] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 09:24:57,646] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52483)
+
+[2023-03-08 09:25:14,132] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7812
+[2023-03-08 09:26:01,533] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7633
+[2023-03-08 09:26:22,937] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7621
+[2023-03-08 09:26:26,402] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52486)
+
+[2023-03-08 09:26:26,429] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52502)
+
+[2023-03-08 09:26:26,429] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52503)
+
+[2023-03-08 09:27:17,425] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7636
+[2023-03-08 09:27:42,499] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7610
+[2023-03-08 09:27:55,814] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7591
+[2023-03-08 09:28:12,654] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7605
+[2023-03-08 09:28:18,263] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52506)
+
+[2023-03-08 09:28:18,289] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52511)
+
+[2023-03-08 09:28:18,289] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52512)
+
+[2023-03-08 09:28:18,330] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 09:28:18,330] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52513)
+
+[2023-03-08 09:28:38,271] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52521)
+
+[2023-03-08 09:28:38,295] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/theme.css HTTP/1.1" 200 210133
+[2023-03-08 09:28:38,333] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 09:28:38,333] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52523)
+
+[2023-03-08 09:31:55,809] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6267
+[2023-03-08 09:34:44,369] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6267
+[2023-03-08 09:34:47,410] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 27863
+[2023-03-08 09:34:49,378] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6267
+[2023-03-08 09:35:40,641] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6287
+[2023-03-08 09:36:01,823] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6288
+[2023-03-08 09:36:12,759] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6300
+[2023-03-08 09:36:35,328] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6292
+[2023-03-08 09:36:40,144] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6288
+[2023-03-08 09:36:59,355] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6303
+[2023-03-08 09:38:41,369] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6316
+[2023-03-08 09:39:04,670] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6334
+[2023-03-08 09:39:28,882] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6359
+[2023-03-08 09:39:38,909] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6360
+[2023-03-08 09:39:48,343] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6360
+[2023-03-08 09:40:29,706] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6336
+[2023-03-08 09:42:01,266] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6581
+[2023-03-08 09:42:12,941] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6560
+[2023-03-08 09:42:21,438] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6546
+[2023-03-08 09:43:11,410] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6546
+[2023-03-08 09:43:40,629] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6406
+[2023-03-08 09:43:48,646] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6406
+[2023-03-08 09:45:45,114] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6437
+[2023-03-08 09:45:45,168] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 09:45:45,169] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 53057)
+
+[2023-03-08 09:46:21,066] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6418
+[2023-03-08 09:46:38,681] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7757
+[2023-03-08 09:46:42,768] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6997
+[2023-03-08 09:46:42,790] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/summarize.js HTTP/1.1" 200 579
+[2023-03-08 09:46:59,128] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 7002
+[2023-03-08 09:47:01,360] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7762
+[2023-03-08 09:47:22,323] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7726
+[2023-03-08 09:47:26,674] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6388
+[2023-03-08 09:47:41,759] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6398
+[2023-03-08 09:49:22,671] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6404
+[2023-03-08 09:49:22,732] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 09:49:22,733] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 53062)
+
+[2023-03-08 09:49:23,375] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6404
+[2023-03-08 09:49:23,606] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6404
+[2023-03-08 09:49:23,762] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6404
+[2023-03-08 09:50:13,148] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7742
+[2023-03-08 09:50:13,211] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 09:50:13,211] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 53138)
+
+[2023-03-08 09:51:53,329] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7741
+[2023-03-08 09:51:54,943] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6403
+[2023-03-08 09:53:59,646] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6443
+[2023-03-08 09:53:59,701] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 09:53:59,701] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 53323)
+
+[2023-03-08 09:54:23,953] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6464
+[2023-03-08 09:54:24,567] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6464
+[2023-03-08 09:54:24,755] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6464
+[2023-03-08 09:54:25,059] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6464
+[2023-03-08 09:54:47,363] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6465
+[2023-03-08 09:56:01,602] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6506
+[2023-03-08 09:56:02,289] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6506
+[2023-03-08 09:56:02,632] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6506
+[2023-03-08 09:56:02,816] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6506
+[2023-03-08 09:58:56,102] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6505
+[2023-03-08 09:58:56,160] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 09:58:56,161] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 53430)
+
+[2023-03-08 09:58:56,876] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6505
+[2023-03-08 09:58:57,059] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6505
+[2023-03-08 09:58:57,243] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6505
+[2023-03-08 09:58:57,403] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6505
+[2023-03-08 09:58:57,570] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6505
+[2023-03-08 09:58:57,739] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6505
+[2023-03-08 09:59:07,588] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6495
+[2023-03-08 09:59:08,066] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6495
+[2023-03-08 09:59:08,234] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6495
+[2023-03-08 09:59:08,429] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6495
+[2023-03-08 09:59:16,696] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 09:59:16,758] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 09:59:17,356] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 09:59:17,931] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 09:59:20,577] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6495
+[2023-03-08 09:59:21,781] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6495
+[2023-03-08 09:59:22,119] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 28136
+[2023-03-08 09:59:22,820] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6495
+[2023-03-08 09:59:25,588] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6495
+[2023-03-08 09:59:43,770] [homeApp.py:52] [homeApp:get_text] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /generate_bySentence?inputContent1=&inputContent2=&k=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C3901B5A48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 09:59:43,861] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /home/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Home\views.py", line 24, in home_generate
+    "outputContent": homeApp.get_text(title, sentence)
+  File "E:\bryan\NLP\MyAiwrite\Home\homeApp.py", line 55, in get_text
+    text = json.loads(res.text)
+AttributeError: 'str' object has no attribute 'text'
+[2023-03-08 09:59:43,862] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /home/generate/ HTTP/1.1" 500 72062
+[2023-03-08 10:02:03,960] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6511
+[2023-03-08 10:02:04,602] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6511
+[2023-03-08 10:02:04,814] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6511
+[2023-03-08 10:02:05,014] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6511
+[2023-03-08 10:02:05,198] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6511
+[2023-03-08 10:02:05,352] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6511
+[2023-03-08 10:07:21,063] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6477
+[2023-03-08 10:07:53,069] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6474
+[2023-03-08 10:07:53,653] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6474
+[2023-03-08 10:07:53,956] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6474
+[2023-03-08 10:07:54,160] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6474
+[2023-03-08 10:08:27,583] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6470
+[2023-03-08 10:08:28,180] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6470
+[2023-03-08 10:08:28,363] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6470
+[2023-03-08 10:08:28,531] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6470
+[2023-03-08 10:09:25,989] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 53542)
+
+[2023-03-08 10:09:26,058] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 53559)
+
+[2023-03-08 10:12:20,143] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6499
+[2023-03-08 10:12:20,611] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6499
+[2023-03-08 10:12:21,094] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6499
+[2023-03-08 10:12:21,510] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6499
+[2023-03-08 10:12:22,081] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6499
+[2023-03-08 10:12:22,494] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6499
+[2023-03-08 10:12:22,961] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6499
+[2023-03-08 10:18:11,305] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6542
+[2023-03-08 10:19:36,252] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6546
+[2023-03-08 10:20:18,674] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6482
+[2023-03-08 10:20:24,018] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6529
+[2023-03-08 10:20:29,993] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6507
+[2023-03-08 10:20:44,258] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7845
+[2023-03-08 10:21:40,140] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6501
+[2023-03-08 10:23:57,109] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 7135
+[2023-03-08 10:23:57,141] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/summarize.js HTTP/1.1" 200 579
+[2023-03-08 10:24:04,548] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6557
+[2023-03-08 10:26:53,289] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 8283
+[2023-03-08 10:26:53,314] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:26:53,315] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:26:53,332] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:26:53,332] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:26:54,863] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 8283
+[2023-03-08 10:26:54,889] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:26:54,889] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:26:55,275] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 28198
+[2023-03-08 10:26:56,099] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 8283
+[2023-03-08 10:26:56,125] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:26:56,126] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:26:56,149] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:26:56,150] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:27:20,538] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 8283
+[2023-03-08 10:27:20,562] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:27:20,562] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:27:20,582] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:27:20,583] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:27:21,153] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 8283
+[2023-03-08 10:27:21,175] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:27:21,175] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:27:21,196] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:27:21,197] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:27:21,597] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 8283
+[2023-03-08 10:27:21,619] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:27:21,619] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:27:21,641] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:27:21,641] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:27:27,311] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 8283
+[2023-03-08 10:27:27,333] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:27:27,334] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:27:27,355] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:27:27,356] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:27:27,839] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 8283
+[2023-03-08 10:27:27,858] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:27:27,858] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:27:27,880] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:27:27,880] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:27:28,214] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 8283
+[2023-03-08 10:27:28,234] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:27:28,235] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:27:28,257] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:27:28,258] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:28:27,024] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 8309
+[2023-03-08 10:28:27,059] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:28:27,059] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:28:51,730] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7774
+[2023-03-08 10:28:51,758] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:28:51,758] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:28:51,796] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:28:51,796] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:31:04,115] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 8196
+[2023-03-08 10:31:04,148] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb2.png
+[2023-03-08 10:31:04,148] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb2.png HTTP/1.1" 404 3961
+[2023-03-08 10:32:04,068] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 8078
+[2023-03-08 10:32:04,094] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb2.png
+[2023-03-08 10:32:04,094] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb2.png HTTP/1.1" 404 3961
+[2023-03-08 10:32:04,131] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb2.png
+[2023-03-08 10:32:04,131] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb2.png HTTP/1.1" 404 3961
+[2023-03-08 10:32:19,836] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 8092
+[2023-03-08 10:32:19,860] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb2.png
+[2023-03-08 10:32:19,861] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb2.png HTTP/1.1" 404 3961
+[2023-03-08 10:32:19,904] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb2.png
+[2023-03-08 10:32:19,905] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb2.png HTTP/1.1" 404 3961
+[2023-03-08 10:32:36,315] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 8094
+[2023-03-08 10:32:36,342] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb2.png
+[2023-03-08 10:32:36,343] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb2.png HTTP/1.1" 404 3961
+[2023-03-08 10:32:36,378] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb2.png
+[2023-03-08 10:32:36,378] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb2.png HTTP/1.1" 404 3961
+[2023-03-08 10:32:49,665] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 8095
+[2023-03-08 10:32:49,689] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb2.png
+[2023-03-08 10:32:49,689] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb2.png HTTP/1.1" 404 3961
+[2023-03-08 10:32:49,722] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb2.png
+[2023-03-08 10:32:49,722] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb2.png HTTP/1.1" 404 3961
+[2023-03-08 10:33:24,400] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7774
+[2023-03-08 10:33:24,426] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:33:24,426] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:33:29,218] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 28198
+[2023-03-08 10:33:30,040] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7895
+[2023-03-08 10:33:30,861] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7774
+[2023-03-08 10:33:30,892] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:33:30,892] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:35:21,478] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7774
+[2023-03-08 10:35:21,500] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:35:21,500] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:35:21,525] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:35:21,525] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:35:22,893] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7774
+[2023-03-08 10:35:22,913] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:35:22,913] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:35:22,933] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:35:22,933] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:35:43,644] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7755
+[2023-03-08 10:35:43,664] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:35:43,664] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:35:43,686] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:35:43,687] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:36:18,604] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7755
+[2023-03-08 10:36:18,627] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:36:18,627] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:36:18,651] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:36:18,651] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:37:12,358] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7822
+[2023-03-08 10:37:12,379] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:37:12,380] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:37:12,403] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:37:12,403] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:37:22,311] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7822
+[2023-03-08 10:37:22,331] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:37:22,332] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:37:22,353] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:37:22,353] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:37:30,654] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7809
+[2023-03-08 10:37:30,677] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:37:30,677] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:37:30,698] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:37:30,698] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:37:40,649] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7822
+[2023-03-08 10:37:40,674] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:37:40,674] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:37:40,702] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:37:40,702] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:37:46,909] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7822
+[2023-03-08 10:37:46,933] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:37:46,933] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:37:46,955] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:37:46,955] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:37:52,613] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7792
+[2023-03-08 10:37:52,635] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:37:52,635] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:37:52,659] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:37:52,659] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:38:01,422] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7805
+[2023-03-08 10:38:01,443] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:38:01,444] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:38:01,464] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:38:01,465] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:38:05,109] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7822
+[2023-03-08 10:38:05,133] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:38:05,133] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:38:05,155] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:38:05,155] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:38:25,087] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7848
+[2023-03-08 10:38:25,107] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:38:25,108] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:38:25,129] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:38:25,129] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:38:44,791] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7874
+[2023-03-08 10:38:44,812] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:38:44,812] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:38:44,836] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb.png
+[2023-03-08 10:38:44,837] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb.png HTTP/1.1" 404 3958
+[2023-03-08 10:39:49,325] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 8638
+[2023-03-08 10:41:02,614] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7880
+[2023-03-08 10:41:02,644] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 200 27606
+[2023-03-08 10:41:16,929] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 8638
+[2023-03-08 10:41:27,892] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 28198
+[2023-03-08 10:41:37,709] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 8638
+[2023-03-08 10:41:43,203] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 28198
+[2023-03-08 10:41:50,627] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 53861)
+
+[2023-03-08 10:42:01,454] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54046)
+
+[2023-03-08 10:42:28,829] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 8638
+[2023-03-08 10:42:28,893] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 10:42:28,893] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54097)
+
+[2023-03-08 10:45:18,955] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7880
+[2023-03-08 10:45:18,983] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 200 68662
+[2023-03-08 10:45:19,945] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7880
+[2023-03-08 10:45:58,104] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7735
+[2023-03-08 10:45:58,141] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 200 68662
+[2023-03-08 10:56:33,344] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7374
+[2023-03-08 10:59:18,900] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 10:59:57,634] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 8450
+[2023-03-08 10:59:57,658] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 200 65810
+[2023-03-08 10:59:57,660] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 200 68662
+[2023-03-08 11:00:01,557] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7374
+[2023-03-08 11:00:50,032] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 200 65810
+[2023-03-08 11:01:07,291] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 9788
+[2023-03-08 11:01:07,328] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 11:01:44,662] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 9996
+[2023-03-08 11:01:44,699] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 11:01:44,699] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 200 68662
+[2023-03-08 11:02:46,614] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 9998
+[2023-03-08 11:02:46,652] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 11:02:59,517] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10024
+[2023-03-08 11:04:35,113] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7374
+[2023-03-08 11:04:36,923] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10410
+[2023-03-08 11:04:36,965] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 11:04:36,965] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 11:04:39,923] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7895
+[2023-03-08 11:04:47,301] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 28573
+[2023-03-08 11:06:42,776] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10694
+[2023-03-08 11:06:42,801] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 200 69731
+[2023-03-08 11:06:42,822] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 11:06:42,823] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 200 65810
+[2023-03-08 11:07:15,334] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10730
+[2023-03-08 11:07:15,370] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 11:07:30,006] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10730
+[2023-03-08 11:07:30,043] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 11:07:39,979] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 28573
+[2023-03-08 11:07:41,391] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10730
+[2023-03-08 11:07:41,432] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 11:07:57,801] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 28573
+[2023-03-08 11:08:41,303] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10730
+[2023-03-08 11:08:41,344] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 11:08:41,344] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 200 69675
+[2023-03-08 11:09:07,764] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 7135
+[2023-03-08 11:09:07,786] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/summarize.js HTTP/1.1" 200 579
+[2023-03-08 11:09:50,044] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /summarize/summarize/ HTTP/1.1" 200 1268
+[2023-03-08 11:12:23,302] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11054
+[2023-03-08 11:12:23,324] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 11:12:23,326] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 200 235123
+[2023-03-08 11:12:23,349] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 11:12:23,349] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 11:52:42,716] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7374
+[2023-03-08 11:52:43,780] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7895
+[2023-03-08 11:57:06,764] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11059
+[2023-03-08 11:57:06,789] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 200 77741
+[2023-03-08 11:57:06,790] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 200 85772
+[2023-03-08 11:57:06,790] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 200 218487
+[2023-03-08 11:57:06,810] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 11:57:06,811] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 200 89000
+[2023-03-08 11:58:40,682] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11074
+[2023-03-08 11:58:40,718] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 11:58:40,718] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 11:58:40,718] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 11:58:40,719] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 11:58:58,953] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11074
+[2023-03-08 11:58:58,989] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 11:59:09,360] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11074
+[2023-03-08 11:59:30,304] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11104
+[2023-03-08 11:59:30,346] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 11:59:30,347] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 11:59:30,347] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 11:59:30,347] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 12:00:10,846] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11104
+[2023-03-08 12:00:10,881] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:00:16,422] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 8638
+[2023-03-08 12:00:26,547] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 12:01:22,767] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10996
+[2023-03-08 12:01:22,807] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:01:22,808] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:01:22,808] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:01:22,808] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 12:01:35,101] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10960
+[2023-03-08 12:02:39,436] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11239
+[2023-03-08 12:02:39,480] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:02:39,481] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:02:39,481] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:02:39,481] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 12:02:44,185] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54522)
+
+[2023-03-08 12:03:11,320] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11239
+[2023-03-08 12:03:39,046] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11239
+[2023-03-08 12:03:39,092] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:03:39,092] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:03:57,930] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11239
+[2023-03-08 12:03:57,971] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:03:57,973] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 12:04:12,898] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11239
+[2023-03-08 12:04:43,617] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11275
+[2023-03-08 12:04:43,658] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:04:43,659] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:05:05,872] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11275
+[2023-03-08 12:05:05,915] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:05:12,778] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11275
+[2023-03-08 12:05:12,814] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 12:05:12,814] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:06:06,649] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 7135
+[2023-03-08 12:06:09,752] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 28573
+[2023-03-08 12:06:13,390] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11275
+[2023-03-08 12:06:13,436] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:07:45,261] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11304
+[2023-03-08 12:07:45,305] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:07:45,306] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:07:45,307] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:07:45,307] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 12:08:46,589] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11471
+[2023-03-08 12:08:48,129] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 7135
+[2023-03-08 12:08:51,134] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 28573
+[2023-03-08 12:11:35,309] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11684
+[2023-03-08 12:11:35,351] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:11:35,353] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:11:35,354] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 12:11:35,354] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:11:40,063] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 28573
+[2023-03-08 12:13:23,986] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11689
+[2023-03-08 12:13:24,025] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54611)
+
+[2023-03-08 12:13:24,026] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54609)
+
+[2023-03-08 12:13:24,027] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 200 68662
+[2023-03-08 12:13:24,027] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 200 85772
+[2023-03-08 12:13:24,044] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 12:13:24,045] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54809)
+
+[2023-03-08 12:13:54,250] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11498
+[2023-03-08 12:13:54,288] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 200 77741
+[2023-03-08 12:13:54,290] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 200 89000
+[2023-03-08 12:13:54,290] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 200 218487
+[2023-03-08 12:13:54,310] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 12:13:54,310] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54812)
+
+[2023-03-08 12:14:16,068] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11524
+[2023-03-08 12:14:16,126] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 12:14:16,126] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54811)
+
+[2023-03-08 12:14:25,833] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54610)
+
+[2023-03-08 12:14:25,910] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54813)
+
+[2023-03-08 12:15:34,674] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11540
+[2023-03-08 12:15:34,731] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:15:57,512] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11575
+[2023-03-08 12:16:12,028] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11590
+[2023-03-08 12:16:12,096] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 200 77741
+[2023-03-08 12:16:12,097] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:16:12,098] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 12:16:12,295] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54829)
+
+[2023-03-08 12:16:12,295] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54825)
+
+[2023-03-08 12:16:24,254] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11610
+[2023-03-08 12:16:45,741] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11614
+[2023-03-08 12:16:45,894] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54830)
+
+[2023-03-08 12:16:51,991] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11614
+[2023-03-08 12:16:52,166] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54835)
+
+[2023-03-08 12:16:52,166] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54836)
+
+[2023-03-08 12:18:08,981] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 28573
+[2023-03-08 12:19:01,602] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11614
+[2023-03-08 12:19:01,632] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:19:01,632] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 12:19:01,633] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 200 39310
+[2023-03-08 12:19:01,639] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54856)
+
+[2023-03-08 12:19:01,639] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 200 85772
+[2023-03-08 12:19:42,697] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11614
+[2023-03-08 12:19:42,735] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:20:04,504] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11633
+[2023-03-08 12:20:04,545] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:20:21,727] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11603
+[2023-03-08 12:20:21,767] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:21:15,757] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11610
+[2023-03-08 12:21:15,794] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:21:24,160] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11629
+[2023-03-08 12:21:24,196] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:21:25,376] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 28573
+[2023-03-08 12:21:40,296] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11618
+[2023-03-08 12:21:40,331] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:21:40,332] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:21:44,692] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11614
+[2023-03-08 12:21:44,730] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 12:22:00,292] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11631
+[2023-03-08 12:22:00,325] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:22:01,575] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 28573
+[2023-03-08 12:22:49,587] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11851
+[2023-03-08 12:22:49,627] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:22:49,627] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:26:38,925] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11850
+[2023-03-08 12:26:38,942] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 183
+[2023-03-08 12:26:38,963] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:26:38,963] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:26:38,963] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:26:38,964] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 12:26:50,558] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 12:26:50,626] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 12:26:51,243] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 12:26:51,722] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 12:26:54,609] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11850
+[2023-03-08 12:26:54,625] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 183
+[2023-03-08 12:27:40,634] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11850
+[2023-03-08 12:27:40,652] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 183
+[2023-03-08 12:27:40,672] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:27:41,220] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11850
+[2023-03-08 12:27:41,235] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:27:41,658] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11850
+[2023-03-08 12:27:41,674] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:27:42,133] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11850
+[2023-03-08 12:27:42,148] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:27:54,115] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11840
+[2023-03-08 12:27:54,132] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:28:28,001] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 7207
+[2023-03-08 12:28:28,025] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:28:28,028] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54911)
+
+[2023-03-08 12:29:09,001] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11840
+[2023-03-08 12:29:09,023] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 179
+[2023-03-08 12:29:09,024] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:29:34,863] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11840
+[2023-03-08 12:29:34,879] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 160
+[2023-03-08 12:30:54,295] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11840
+[2023-03-08 12:30:54,319] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 179
+[2023-03-08 12:30:54,341] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 200 39310
+[2023-03-08 12:30:54,342] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 200 85772
+[2023-03-08 12:30:54,342] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 200 89000
+[2023-03-08 12:30:54,343] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 200 218487
+[2023-03-08 12:30:54,364] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 12:30:54,364] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55021)
+
+[2023-03-08 12:31:13,209] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11840
+[2023-03-08 12:31:13,226] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 229
+[2023-03-08 12:31:13,264] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 12:31:13,264] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54912)
+
+[2023-03-08 12:32:47,923] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11840
+[2023-03-08 12:32:47,942] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 262
+[2023-03-08 12:32:47,961] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 200 39310
+[2023-03-08 12:32:47,961] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 200 68662
+[2023-03-08 12:32:47,980] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 12:32:47,981] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54913)
+
+[2023-03-08 12:33:42,777] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11840
+[2023-03-08 12:33:42,793] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 250
+[2023-03-08 12:33:42,831] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 12:33:42,831] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 54910)
+
+[2023-03-08 12:35:58,009] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11840
+[2023-03-08 12:35:58,026] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 238
+[2023-03-08 12:35:58,048] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 200 39310
+[2023-03-08 12:35:58,049] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 200 89000
+[2023-03-08 12:35:58,049] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 200 85772
+[2023-03-08 12:35:58,051] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 200 218487
+[2023-03-08 12:35:58,068] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 12:35:58,069] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55236)
+
+[2023-03-08 12:35:58,653] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11840
+[2023-03-08 12:35:58,672] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:35:59,228] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11840
+[2023-03-08 12:35:59,250] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 238
+[2023-03-08 12:35:59,282] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 12:35:59,282] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55234)
+
+[2023-03-08 12:35:59,704] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11840
+[2023-03-08 12:35:59,720] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:36:00,349] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11840
+[2023-03-08 12:36:00,362] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:36:01,424] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 28766
+[2023-03-08 12:36:01,445] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:36:02,999] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 28766
+[2023-03-08 12:36:03,021] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:36:47,967] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11840
+[2023-03-08 12:36:47,985] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 256
+[2023-03-08 12:36:48,022] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 12:36:48,023] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55235)
+
+[2023-03-08 12:36:48,468] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11840
+[2023-03-08 12:36:48,485] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:36:48,835] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11840
+[2023-03-08 12:36:48,852] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:36:49,011] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11840
+[2023-03-08 12:36:49,032] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 256
+[2023-03-08 12:36:49,064] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 12:36:49,064] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55275)
+
+[2023-03-08 12:38:22,298] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11856
+[2023-03-08 12:38:22,318] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 231
+[2023-03-08 12:38:22,336] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 200 39310
+[2023-03-08 12:38:22,359] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 12:38:22,359] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55274)
+
+[2023-03-08 12:38:30,084] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7446
+[2023-03-08 12:38:30,139] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 12:38:30,140] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55233)
+
+[2023-03-08 12:38:53,092] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55296)
+
+[2023-03-08 12:38:53,097] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55297)
+
+[2023-03-08 12:39:40,862] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11882
+[2023-03-08 12:39:40,901] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 231
+[2023-03-08 12:39:40,953] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-08 12:39:40,953] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55303)
+
+[2023-03-08 12:39:41,024] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55304)
+
+[2023-03-08 12:40:04,514] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11835
+[2023-03-08 12:40:04,548] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:40:04,592] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 200 85772
+[2023-03-08 12:40:46,573] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11903
+[2023-03-08 12:40:46,601] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:40:46,638] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 200 39310
+[2023-03-08 12:40:46,638] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 200 89000
+[2023-03-08 12:40:46,639] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 200 218487
+[2023-03-08 12:41:05,780] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11918
+[2023-03-08 12:41:23,321] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11932
+[2023-03-08 12:41:23,352] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:41:43,972] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11959
+[2023-03-08 12:42:02,019] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11938
+[2023-03-08 12:42:02,046] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:42:41,637] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11919
+[2023-03-08 12:42:41,668] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:43:33,463] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7446
+[2023-03-08 12:43:33,501] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:43:43,731] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11917
+[2023-03-08 12:43:43,799] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 200 39310
+[2023-03-08 12:43:43,799] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 200 68662
+[2023-03-08 12:44:43,156] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11899
+[2023-03-08 12:44:43,193] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:44:43,225] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:45:01,913] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11920
+[2023-03-08 12:47:26,508] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11879
+[2023-03-08 12:47:26,536] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:47:26,574] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:47:26,576] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:47:26,576] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 12:47:36,619] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11893
+[2023-03-08 12:49:19,247] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11912
+[2023-03-08 12:49:19,286] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 231
+[2023-03-08 12:49:19,521] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55502)
+
+[2023-03-08 12:49:19,521] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 55501)
+
+[2023-03-08 12:51:01,057] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11829
+[2023-03-08 12:51:01,089] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:51:01,127] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:51:01,128] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:51:54,429] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11757
+[2023-03-08 12:55:07,733] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 12:55:07,796] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 12:55:08,402] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 12:55:08,631] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11757
+[2023-03-08 12:55:08,787] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/main.css HTTP/1.1" 200 252322
+[2023-03-08 12:55:08,788] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:55:08,956] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 12:55:08,958] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 12:55:08,958] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:55:08,958] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:55:09,258] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 12:55:23,953] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11757
+[2023-03-08 12:55:24,718] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11757
+[2023-03-08 12:55:25,776] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29649
+[2023-03-08 12:55:29,054] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7374
+[2023-03-08 12:55:31,493] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7895
+[2023-03-08 12:55:34,230] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 8638
+[2023-03-08 12:55:39,078] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 7135
+[2023-03-08 12:55:39,113] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/summarize.js HTTP/1.1" 200 579
+[2023-03-08 12:55:45,836] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11757
+[2023-03-08 12:55:45,888] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 200 68662
+[2023-03-08 12:57:30,155] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12108
+[2023-03-08 12:57:30,176] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:57:30,188] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb2.png
+[2023-03-08 12:57:30,188] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb2.png HTTP/1.1" 404 3961
+[2023-03-08 12:57:30,204] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 12:57:30,206] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/img/demo/dashb2.png
+[2023-03-08 12:57:30,206] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/img/demo/dashb2.png HTTP/1.1" 404 3961
+[2023-03-08 12:58:12,494] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11782
+[2023-03-08 12:58:27,081] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12240
+[2023-03-08 12:59:10,235] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12225
+[2023-03-08 12:59:10,280] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 12:59:14,508] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29634
+[2023-03-08 12:59:16,616] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12225
+[2023-03-08 12:59:29,369] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12186
+[2023-03-08 12:59:31,052] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29634
+[2023-03-08 12:59:31,670] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 7120
+[2023-03-08 12:59:33,641] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12186
+[2023-03-08 12:59:33,671] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 12:59:34,193] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29634
+[2023-03-08 12:59:34,911] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 7120
+[2023-03-08 12:59:35,477] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29634
+[2023-03-08 12:59:35,760] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12186
+[2023-03-08 12:59:43,319] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 8623
+[2023-03-08 13:00:20,079] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12222
+[2023-03-08 13:00:20,932] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29670
+[2023-03-08 13:00:43,682] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29660
+[2023-03-08 13:00:45,072] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12212
+[2023-03-08 13:00:54,406] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12212
+[2023-03-08 13:00:55,923] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29660
+[2023-03-08 13:00:58,197] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 7146
+[2023-03-08 13:01:02,008] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7906
+[2023-03-08 13:01:03,439] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29660
+[2023-03-08 13:01:04,360] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12212
+[2023-03-08 13:01:31,707] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12239
+[2023-03-08 13:01:31,748] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 13:01:31,749] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 13:01:38,587] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12239
+[2023-03-08 13:03:08,127] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12206
+[2023-03-08 13:03:08,166] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 231
+[2023-03-08 13:03:09,242] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12206
+[2023-03-08 13:03:49,578] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12206
+[2023-03-08 13:03:49,639] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 13:03:49,641] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 13:03:50,275] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12206
+[2023-03-08 13:03:52,651] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29627
+[2023-03-08 13:04:02,475] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 13:04:02,549] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 13:04:03,152] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 13:04:03,639] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 13:04:07,356] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12206
+[2023-03-08 13:04:08,074] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12206
+[2023-03-08 13:04:08,526] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12206
+[2023-03-08 13:04:08,982] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12206
+[2023-03-08 13:04:14,026] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:04:56,739] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12206
+[2023-03-08 13:04:57,157] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:04:58,461] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12206
+[2023-03-08 13:04:58,732] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:06:05,162] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 13:06:05,225] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 13:06:05,807] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 13:06:06,253] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 13:06:09,098] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12206
+[2023-03-08 13:06:09,147] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 13:06:09,152] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 200 68662
+[2023-03-08 13:06:18,807] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 13:06:18,870] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 13:06:19,523] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 13:06:19,840] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 13:06:22,478] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12206
+[2023-03-08 13:06:23,207] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12206
+[2023-03-08 13:06:23,643] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12206
+[2023-03-08 13:06:24,114] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12206
+[2023-03-08 13:06:26,036] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:07:26,702] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12240
+[2023-03-08 13:07:27,370] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12240
+[2023-03-08 13:07:27,874] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12240
+[2023-03-08 13:07:28,257] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12240
+[2023-03-08 13:08:29,449] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12240
+[2023-03-08 13:08:29,517] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 13:08:29,518] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 13:08:29,519] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 13:08:29,760] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:08:33,889] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12240
+[2023-03-08 13:08:36,456] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12240
+[2023-03-08 13:08:45,547] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12240
+[2023-03-08 13:08:54,200] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12240
+[2023-03-08 13:08:54,241] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 13:08:54,824] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12240
+[2023-03-08 13:09:09,808] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12243
+[2023-03-08 13:09:09,833] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 13:09:41,354] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12246
+[2023-03-08 13:09:41,755] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:11:08,476] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 14243
+[2023-03-08 13:11:08,521] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 13:13:13,562] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11906
+[2023-03-08 13:13:13,586] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 13:13:26,021] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7046
+[2023-03-08 13:13:49,466] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12297
+[2023-03-08 13:13:49,516] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 13:14:22,735] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12000
+[2023-03-08 13:14:53,415] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11988
+[2023-03-08 13:17:35,442] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11955
+[2023-03-08 13:17:35,465] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 13:17:35,490] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 13:17:35,490] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 13:17:42,312] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6862
+[2023-03-08 13:17:57,097] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6861
+[2023-03-08 13:18:13,807] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6754
+[2023-03-08 13:18:18,035] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11847
+[2023-03-08 13:18:21,477] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29324
+[2023-03-08 13:18:40,275] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29474
+[2023-03-08 13:18:54,482] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29431
+[2023-03-08 13:19:08,939] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11954
+[2023-03-08 13:19:08,967] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 13:21:35,367] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11627
+[2023-03-08 13:21:35,408] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 13:21:57,917] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11591
+[2023-03-08 13:21:57,942] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 13:22:42,930] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11544
+[2023-03-08 13:22:54,244] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7097
+[2023-03-08 13:23:07,820] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11544
+[2023-03-08 13:23:10,658] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29428
+[2023-03-08 13:23:14,657] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7097
+[2023-03-08 13:25:13,852] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29428
+[2023-03-08 13:25:15,102] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7618
+[2023-03-08 13:26:40,474] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7618
+[2023-03-08 13:26:40,500] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 13:26:41,643] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7083
+[2023-03-08 13:26:47,933] [generateApp.py:110] [generateApp:get_abstract] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /extract_byKey?inputContent=&topK=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000262BAF20188>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 13:26:47,977] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /titleGenerate/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Generate\views.py", line 70, in generate_by_title
+    generateApp.title_generate(title, keywords)
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 61, in title_generate
+    self.get_abstract(self.title, self.keywords)
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 113, in get_abstract
+    text = json.loads(res.text)
+AttributeError: 'str' object has no attribute 'text'
+[2023-03-08 13:26:47,978] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /titleGenerate/generate/ HTTP/1.1" 500 77292
+[2023-03-08 13:28:00,296] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7075
+[2023-03-08 13:28:22,440] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7618
+[2023-03-08 13:28:24,003] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7083
+[2023-03-08 13:28:28,446] [generateApp.py:110] [generateApp:get_abstract] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /extract_byKey?inputContent=&topK=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000262BAF52AC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 13:28:28,466] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /titleGenerate/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Generate\views.py", line 70, in generate_by_title
+    generateApp.title_generate(title, keywords)
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 61, in title_generate
+    self.get_abstract(self.title, self.keywords)
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 113, in get_abstract
+    text = json.loads(res.text)
+AttributeError: 'str' object has no attribute 'text'
+[2023-03-08 13:28:28,467] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /titleGenerate/generate/ HTTP/1.1" 500 77292
+[2023-03-08 13:28:32,417] [generateApp.py:110] [generateApp:get_abstract] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /extract_byKey?inputContent=&topK=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000262BAF3C3C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 13:28:32,437] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /titleGenerate/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Generate\views.py", line 70, in generate_by_title
+    generateApp.title_generate(title, keywords)
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 61, in title_generate
+    self.get_abstract(self.title, self.keywords)
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 113, in get_abstract
+    text = json.loads(res.text)
+AttributeError: 'str' object has no attribute 'text'
+[2023-03-08 13:28:32,438] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /titleGenerate/generate/ HTTP/1.1" 500 77292
+[2023-03-08 13:31:44,243] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7069
+[2023-03-08 13:31:44,265] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 13:32:51,336] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 6977
+[2023-03-08 13:33:18,800] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 6986
+[2023-03-08 13:34:27,669] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 6989
+[2023-03-08 13:34:54,655] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7010
+[2023-03-08 13:35:07,732] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7015
+[2023-03-08 13:35:22,479] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7035
+[2023-03-08 13:35:30,957] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7033
+[2023-03-08 13:36:01,059] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7047
+[2023-03-08 13:36:09,725] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7033
+[2023-03-08 13:36:23,490] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 6965
+[2023-03-08 13:36:30,046] [generateApp.py:110] [generateApp:get_abstract] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /extract_byKey?inputContent=&topK=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000262BAF86508>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 13:36:30,066] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /titleGenerate/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Generate\views.py", line 70, in generate_by_title
+    generateApp.title_generate(title, keywords)
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 61, in title_generate
+    self.get_abstract(self.title, self.keywords)
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 113, in get_abstract
+    text = json.loads(res.text)
+AttributeError: 'str' object has no attribute 'text'
+[2023-03-08 13:36:30,067] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /titleGenerate/generate/ HTTP/1.1" 500 77292
+[2023-03-08 13:37:42,423] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7030
+[2023-03-08 13:37:42,445] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 13:38:34,832] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:38:53,243] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:42:22,433] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7614
+[2023-03-08 13:42:22,849] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:44:42,300] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7690
+[2023-03-08 13:44:42,331] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 13:44:42,747] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:44:46,783] [generateApp.py:110] [generateApp:get_abstract] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /extract_byKey?inputContent=&topK=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000262BAF20AC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 13:44:46,803] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /get_abstract/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Generate\views.py", line 34, in get_abstract
+    generateApp.get_abstract(title=title, keywords=keywords)
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 113, in get_abstract
+    text = json.loads(res.text)
+AttributeError: 'str' object has no attribute 'text'
+[2023-03-08 13:44:46,803] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /get_abstract/ HTTP/1.1" 500 73242
+[2023-03-08 13:44:50,096] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29500
+[2023-03-08 13:44:50,468] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:44:59,387] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11616
+[2023-03-08 13:44:59,434] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 200 39310
+[2023-03-08 13:44:59,435] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 200 68662
+[2023-03-08 13:44:59,436] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 200 89000
+[2023-03-08 13:44:59,436] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 200 85772
+[2023-03-08 13:44:59,437] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 200 218487
+[2023-03-08 13:44:59,761] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:45:12,849] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6930
+[2023-03-08 13:45:13,243] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:45:19,657] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11616
+[2023-03-08 13:45:20,016] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:46:44,553] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11483
+[2023-03-08 13:46:44,780] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:46:57,746] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11515
+[2023-03-08 13:46:58,095] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:47:07,456] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7621
+[2023-03-08 13:47:07,784] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:47:09,348] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29431
+[2023-03-08 13:47:09,676] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:47:15,908] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11515
+[2023-03-08 13:47:16,273] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:47:18,568] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29431
+[2023-03-08 13:47:18,790] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /static/css/main.css.map HTTP/1.1" 404 1807
+[2023-03-08 13:47:24,849] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 13:47:24,921] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 13:47:25,510] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 13:47:26,102] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 13:47:35,576] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29239
+[2023-03-08 13:47:37,150] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11516
+[2023-03-08 13:47:42,017] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29239
+[2023-03-08 13:47:43,659] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7622
+[2023-03-08 13:47:45,791] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11516
+[2023-03-08 13:48:50,156] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11519
+[2023-03-08 13:49:21,543] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11485
+[2023-03-08 13:49:22,824] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29208
+[2023-03-08 13:49:25,646] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11485
+[2023-03-08 13:49:28,245] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 8334
+[2023-03-08 13:49:39,103] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29208
+[2023-03-08 13:49:40,605] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6831
+[2023-03-08 13:49:48,013] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 11485
+[2023-03-08 13:55:26,592] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12763
+[2023-03-08 13:55:26,615] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 13:55:26,633] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/img-2-1000x900.jpg
+[2023-03-08 13:55:26,635] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/team-3.jpg
+[2023-03-08 13:55:26,636] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/team-2.jpg
+[2023-03-08 13:55:26,637] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/img-2-1000x900.jpg HTTP/1.1" 404 3991
+[2023-03-08 13:55:26,637] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/team-3.jpg HTTP/1.1" 404 3967
+[2023-03-08 13:55:26,637] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/team-2.jpg HTTP/1.1" 404 3967
+[2023-03-08 13:55:26,641] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 13:55:56,854] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7003
+[2023-03-08 13:55:58,451] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56127)
+
+[2023-03-08 13:56:00,626] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7003
+[2023-03-08 13:56:03,749] [generateApp.py:110] [generateApp:get_abstract] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /extract_byKey?inputContent=&topK=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012045836448>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 13:56:03,772] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /titleGenerate/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Generate\views.py", line 70, in generate_by_title
+    generateApp.title_generate(title, keywords)
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 61, in title_generate
+    self.get_abstract(self.title, self.keywords)
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 113, in get_abstract
+    text = json.loads(res.text)
+AttributeError: 'str' object has no attribute 'text'
+[2023-03-08 13:56:03,773] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /titleGenerate/generate/ HTTP/1.1" 500 77292
+[2023-03-08 13:58:14,507] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29208
+[2023-03-08 13:58:15,690] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12752
+[2023-03-08 13:58:15,726] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/team-3.jpg
+[2023-03-08 13:58:15,728] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/img-2-1000x900.jpg
+[2023-03-08 13:58:15,729] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56155)
+
+[2023-03-08 13:58:15,729] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/team-3.jpg HTTP/1.1" 404 3967
+[2023-03-08 13:58:15,729] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/img-2-1000x900.jpg HTTP/1.1" 404 3991
+[2023-03-08 13:58:15,731] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 200 89000
+[2023-03-08 13:58:15,731] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 200 85772
+[2023-03-08 13:58:15,751] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/team-3.jpg
+[2023-03-08 13:58:15,752] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/team-3.jpg HTTP/1.1" 404 3967
+[2023-03-08 13:58:15,753] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/img-2-1000x900.jpg
+[2023-03-08 13:58:15,753] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/img-2-1000x900.jpg HTTP/1.1" 404 3991
+[2023-03-08 13:58:46,245] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12772
+[2023-03-08 13:58:46,274] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/team-3.jpg
+[2023-03-08 13:58:46,276] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/img-2-1000x900.jpg
+[2023-03-08 13:58:46,276] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/team-3.jpg HTTP/1.1" 404 3967
+[2023-03-08 13:58:46,276] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/img-2-1000x900.jpg HTTP/1.1" 404 3991
+[2023-03-08 13:58:46,295] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/team-3.jpg
+[2023-03-08 13:58:46,296] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/img-2-1000x900.jpg
+[2023-03-08 13:58:46,297] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/team-3.jpg HTTP/1.1" 404 3967
+[2023-03-08 13:58:46,297] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/img-2-1000x900.jpg HTTP/1.1" 404 3991
+[2023-03-08 14:00:07,403] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12776
+[2023-03-08 14:00:07,427] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/img-2-1000x900.jpg
+[2023-03-08 14:00:07,427] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/img-2-1000x900.jpg HTTP/1.1" 404 3991
+[2023-03-08 14:00:07,448] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/img-2-1000x900.jpg
+[2023-03-08 14:00:07,448] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/img-2-1000x900.jpg HTTP/1.1" 404 3991
+[2023-03-08 14:00:17,325] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12791
+[2023-03-08 14:00:17,347] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/img-2-1000x900.jpg
+[2023-03-08 14:00:17,348] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/img-2-1000x900.jpg HTTP/1.1" 404 3991
+[2023-03-08 14:00:17,369] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/img-2-1000x900.jpg
+[2023-03-08 14:00:17,369] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/img-2-1000x900.jpg HTTP/1.1" 404 3991
+[2023-03-08 14:01:33,345] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 12521
+[2023-03-08 14:01:33,367] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 200 218487
+[2023-03-08 14:04:50,648] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13551
+[2023-03-08 14:04:50,682] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 14:04:50,727] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 200 68662
+[2023-03-08 14:06:56,033] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 14678
+[2023-03-08 14:06:56,073] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 14:06:56,094] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/backgrounds/img-1.jpg
+[2023-03-08 14:06:56,094] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/backgrounds/img-1.jpg HTTP/1.1" 404 3988
+[2023-03-08 14:08:04,904] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13422
+[2023-03-08 14:08:04,967] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/img-1.jpg HTTP/1.1" 200 238501
+[2023-03-08 14:08:19,610] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29208
+[2023-03-08 14:08:20,534] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13422
+[2023-03-08 14:08:40,559] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13441
+[2023-03-08 14:08:46,597] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13442
+[2023-03-08 14:09:48,996] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13427
+[2023-03-08 14:10:59,291] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13292
+[2023-03-08 14:10:59,338] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 200 85772
+[2023-03-08 14:10:59,339] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 200 89000
+[2023-03-08 14:11:04,853] [homeApp.py:52] [homeApp:get_text] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /generate_bySentence?inputContent1=&inputContent2=&k=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012045893948>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 14:11:04,873] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /home/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Home\views.py", line 24, in home_generate
+    "outputContent": homeApp.get_text(title, sentence)
+  File "E:\bryan\NLP\MyAiwrite\Home\homeApp.py", line 55, in get_text
+    text = json.loads(res.text)
+AttributeError: 'str' object has no attribute 'text'
+[2023-03-08 14:11:04,874] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /home/generate/ HTTP/1.1" 500 72062
+[2023-03-08 14:11:24,572] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13308
+[2023-03-08 14:11:32,075] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7003
+[2023-03-08 14:11:40,585] [homeApp.py:52] [homeApp:get_text] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /generate_bySentence?inputContent1=&inputContent2=%E5%A5%BD%E5%83%8F%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%EF%BC%8C%E8%AF%B7%E5%86%8D%E8%AF%95%E4%B8%80%E6%AC%A1%E6%88%96%E8%81%94%E7%B3%BB%E7%AE%A1%E7%90%86%E5%91%98%EF%BC%9Abryanwang0702@163.com&k=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000120458D9E88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 14:11:40,605] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /home/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Home\views.py", line 24, in home_generate
+    "outputContent": homeApp.get_text(title, sentence)
+  File "E:\bryan\NLP\MyAiwrite\Home\homeApp.py", line 55, in get_text
+    text = json.loads(res.text)
+AttributeError: 'str' object has no attribute 'text'
+[2023-03-08 14:11:40,605] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /home/generate/ HTTP/1.1" 500 72375
+[2023-03-08 14:11:42,287] [homeApp.py:52] [homeApp:get_text] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /generate_bySentence?inputContent1=&inputContent2=%E5%A5%BD%E5%83%8F%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%EF%BC%8C%E8%AF%B7%E5%86%8D%E8%AF%95%E4%B8%80%E6%AC%A1%E6%88%96%E8%81%94%E7%B3%BB%E7%AE%A1%E7%90%86%E5%91%98%EF%BC%9Abryanwang0702@163.com&k=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000120459200C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 14:11:42,307] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /home/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Home\views.py", line 24, in home_generate
+    "outputContent": homeApp.get_text(title, sentence)
+  File "E:\bryan\NLP\MyAiwrite\Home\homeApp.py", line 55, in get_text
+    text = json.loads(res.text)
+AttributeError: 'str' object has no attribute 'text'
+[2023-03-08 14:11:42,307] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /home/generate/ HTTP/1.1" 500 72375
+[2023-03-08 14:12:18,704] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13419
+[2023-03-08 14:12:34,432] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13436
+[2023-03-08 14:12:37,235] [homeApp.py:52] [homeApp:get_text] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /generate_bySentence?inputContent1=&inputContent2=&k=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012045883F88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 14:12:37,255] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /home/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Home\views.py", line 24, in home_generate
+    "outputContent": homeApp.get_text(title, sentence)
+  File "E:\bryan\NLP\MyAiwrite\Home\homeApp.py", line 55, in get_text
+    text = json.loads(res.text)
+AttributeError: 'str' object has no attribute 'text'
+[2023-03-08 14:12:37,256] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /home/generate/ HTTP/1.1" 500 72062
+[2023-03-08 14:12:40,423] [homeApp.py:52] [homeApp:get_text] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /generate_bySentence?inputContent1=&inputContent2=%E5%A5%BD%E5%83%8F%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%EF%BC%8C%E8%AF%B7%E5%86%8D%E8%AF%95%E4%B8%80%E6%AC%A1%E6%88%96%E8%81%94%E7%B3%BB%E7%AE%A1%E7%90%86%E5%91%98%EF%BC%9Abryanwang0702@163.com&k=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012045946EC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 14:12:40,443] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /home/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Home\views.py", line 24, in home_generate
+    "outputContent": homeApp.get_text(title, sentence)
+  File "E:\bryan\NLP\MyAiwrite\Home\homeApp.py", line 55, in get_text
+    text = json.loads(res.text)
+AttributeError: 'str' object has no attribute 'text'
+[2023-03-08 14:12:40,443] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /home/generate/ HTTP/1.1" 500 72375
+[2023-03-08 14:12:57,760] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13407
+[2023-03-08 14:13:30,805] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13407
+[2023-03-08 14:13:45,262] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13432
+[2023-03-08 14:13:45,286] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 14:14:28,645] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13580
+[2023-03-08 14:14:28,694] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 200 218487
+[2023-03-08 14:14:30,456] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29208
+[2023-03-08 14:14:46,796] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13565
+[2023-03-08 14:14:47,696] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7003
+[2023-03-08 14:15:07,268] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13718
+[2023-03-08 14:16:52,724] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29208
+[2023-03-08 14:16:52,742] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/twitter-bootstrap_3.3.7_js_bootstrap.js HTTP/1.1" 200 72084
+[2023-03-08 14:16:52,749] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 231
+[2023-03-08 14:16:52,750] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/theme.css HTTP/1.1" 200 210130
+[2023-03-08 14:16:52,784] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/popper/popper.min.js HTTP/1.1" 200 19038
+[2023-03-08 14:16:52,797] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.8.3.js HTTP/1.1" 200 275529
+[2023-03-08 14:16:52,799] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 86663
+[2023-03-08 14:16:52,818] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 200 33098
+[2023-03-08 14:16:52,829] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/input-mask/input-mask.min.js HTTP/1.1" 200 8006
+[2023-03-08 14:16:52,830] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/nouislider/js/nouislider.min.js HTTP/1.1" 200 22054
+[2023-03-08 14:16:52,842] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/theme.js HTTP/1.1" 200 6926
+[2023-03-08 14:16:52,844] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/textarea-autosize/textarea-autosize.min.js HTTP/1.1" 200 3705
+[2023-03-08 14:16:52,847] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap/bootstrap.min.js HTTP/1.1" 200 48950
+[2023-03-08 14:16:52,848] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js HTTP/1.1" 200 9377
+[2023-03-08 14:16:52,865] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/fontawesome/js/fontawesome-all.min.js HTTP/1.1" 200 672453
+[2023-03-08 14:17:12,177] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13694
+[2023-03-08 14:18:10,871] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13719
+[2023-03-08 14:18:10,915] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 14:18:20,559] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13722
+[2023-03-08 14:18:32,926] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13712
+[2023-03-08 14:18:38,552] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13717
+[2023-03-08 14:18:43,949] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13722
+[2023-03-08 14:18:50,357] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13717
+[2023-03-08 14:19:15,664] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13717
+[2023-03-08 14:20:51,022] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13721
+[2023-03-08 14:21:05,109] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29211
+[2023-03-08 14:21:47,751] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29255
+[2023-03-08 14:21:53,255] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13765
+[2023-03-08 14:21:55,581] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13765
+[2023-03-08 14:22:01,310] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29255
+[2023-03-08 14:22:30,105] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13745
+[2023-03-08 14:25:03,743] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13758
+[2023-03-08 14:25:03,774] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 14:25:03,816] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 14:25:03,816] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 14:25:03,816] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 14:26:47,841] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13758
+[2023-03-08 14:27:19,889] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13758
+[2023-03-08 14:27:44,044] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13750
+[2023-03-08 14:27:48,470] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13742
+[2023-03-08 14:28:15,205] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13747
+[2023-03-08 14:28:25,724] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13755
+[2023-03-08 14:28:39,386] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13755
+[2023-03-08 14:28:45,257] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13742
+[2023-03-08 14:28:45,338] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 14:28:56,330] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13750
+[2023-03-08 14:29:03,180] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13742
+[2023-03-08 14:29:17,725] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13730
+[2023-03-08 14:29:21,306] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13742
+[2023-03-08 14:29:25,359] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6875
+[2023-03-08 14:29:56,493] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13914
+[2023-03-08 14:30:23,680] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13764
+[2023-03-08 14:30:23,745] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 14:30:45,899] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13757
+[2023-03-08 14:30:53,232] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13757
+[2023-03-08 14:31:19,958] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13762
+[2023-03-08 14:31:26,417] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13762
+[2023-03-08 14:31:43,820] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13754
+[2023-03-08 14:31:51,028] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29252
+[2023-03-08 14:32:02,514] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29252
+[2023-03-08 14:32:05,048] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13762
+[2023-03-08 14:32:41,345] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13785
+[2023-03-08 14:33:25,857] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7047
+[2023-03-08 14:33:28,193] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7635
+[2023-03-08 14:33:30,262] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 8378
+[2023-03-08 14:34:05,044] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 8378
+[2023-03-08 14:34:06,422] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7094
+[2023-03-08 14:34:15,085] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13785
+[2023-03-08 14:34:55,503] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13835
+[2023-03-08 14:35:15,403] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13790
+[2023-03-08 14:35:23,267] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13835
+[2023-03-08 14:35:48,801] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13785
+[2023-03-08 14:35:56,407] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29252
+[2023-03-08 14:35:56,432] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 14:35:57,261] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13785
+[2023-03-08 14:35:57,932] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29252
+[2023-03-08 14:36:01,245] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13785
+[2023-03-08 14:36:02,062] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29252
+[2023-03-08 14:36:02,860] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7635
+[2023-03-08 14:36:37,035] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7617
+[2023-03-08 14:36:38,856] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13767
+[2023-03-08 14:36:48,154] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13784
+[2023-03-08 14:36:58,344] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13783
+[2023-03-08 14:37:50,575] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13809
+[2023-03-08 14:37:57,201] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29277
+[2023-03-08 14:38:11,601] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29278
+[2023-03-08 14:38:24,987] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29252
+[2023-03-08 14:38:37,944] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29229
+[2023-03-08 14:38:46,279] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29255
+[2023-03-08 14:38:51,237] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13787
+[2023-03-08 14:38:55,524] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7638
+[2023-03-08 14:38:59,039] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29255
+[2023-03-08 14:39:16,672] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29232
+[2023-03-08 14:39:19,116] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13764
+[2023-03-08 14:39:24,962] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29232
+[2023-03-08 14:39:39,309] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29215
+[2023-03-08 14:39:53,974] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29194
+[2023-03-08 14:40:13,816] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29232
+[2023-03-08 14:40:15,892] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13764
+[2023-03-08 14:40:15,947] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 14:40:15,958] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 56411)
+
+[2023-03-08 14:41:06,597] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13726
+[2023-03-08 14:41:06,659] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 14:41:29,751] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13726
+[2023-03-08 14:41:30,593] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13726
+[2023-03-08 14:41:35,777] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13726
+[2023-03-08 14:41:36,607] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29194
+[2023-03-08 14:41:39,643] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6817
+[2023-03-08 14:41:44,348] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13726
+[2023-03-08 14:44:11,861] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13726
+[2023-03-08 14:44:11,905] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 14:45:16,739] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13726
+[2023-03-08 14:45:16,782] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 14:45:25,742] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 14:45:25,809] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 14:45:26,682] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 14:45:27,078] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 14:45:28,759] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13726
+[2023-03-08 14:46:20,601] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13837
+[2023-03-08 14:46:34,936] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13836
+[2023-03-08 14:46:51,632] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13834
+[2023-03-08 14:47:09,487] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13834
+[2023-03-08 14:47:09,529] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 200 311267
+[2023-03-08 14:48:57,108] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13834
+[2023-03-08 14:48:57,141] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 14:48:57,182] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 14:49:07,081] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13834
+[2023-03-08 14:49:21,129] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13834
+[2023-03-08 14:49:21,194] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 14:49:44,462] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13858
+[2023-03-08 14:50:34,512] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13861
+[2023-03-08 14:50:34,581] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 14:50:44,730] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13873
+[2023-03-08 14:51:01,610] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13897
+[2023-03-08 14:51:47,656] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13921
+[2023-03-08 14:51:47,739] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 14:54:58,460] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13921
+[2023-03-08 14:54:58,507] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 14:57:50,849] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13947
+[2023-03-08 14:57:50,913] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 14:57:50,915] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 200 302277
+[2023-03-08 14:59:08,748] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13998
+[2023-03-08 14:59:08,812] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 14:59:08,812] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-08 14:59:08,814] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 14:59:08,815] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 200 405390
+[2023-03-08 14:59:24,955] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13968
+[2023-03-08 14:59:44,817] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13985
+[2023-03-08 14:59:53,121] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 14004
+[2023-03-08 15:00:18,173] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13954
+[2023-03-08 15:00:51,721] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13959
+[2023-03-08 15:00:51,766] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 15:00:51,767] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 15:00:51,767] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 15:01:02,177] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13954
+[2023-03-08 15:01:16,513] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13967
+[2023-03-08 15:01:30,247] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13962
+[2023-03-08 15:01:32,397] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29297
+[2023-03-08 15:01:33,577] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13962
+[2023-03-08 15:01:36,313] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6825
+[2023-03-08 15:01:37,232] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13962
+[2023-03-08 15:01:49,735] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6825
+[2023-03-08 15:01:53,900] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29297
+[2023-03-08 15:01:55,513] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29297
+[2023-03-08 15:01:56,279] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13962
+[2023-03-08 15:02:02,305] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13962
+[2023-03-08 15:02:07,638] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13963
+[2023-03-08 15:02:12,190] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13954
+[2023-03-08 15:02:12,212] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-08 15:02:15,254] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6817
+[2023-03-08 15:02:23,321] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29289
+[2023-03-08 15:02:26,063] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13954
+[2023-03-08 15:02:26,083] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 15:02:26,083] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 15:02:45,691] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29289
+[2023-03-08 15:03:33,238] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13954
+[2023-03-08 15:03:33,294] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 15:03:33,295] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-08 15:03:51,464] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13901
+[2023-03-08 15:04:01,662] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13946
+[2023-03-08 15:04:11,723] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13947
+[2023-03-08 15:04:11,767] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 15:04:11,767] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-08 15:04:22,435] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13946
+[2023-03-08 15:05:28,465] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13946
+[2023-03-08 15:05:28,520] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-08 15:06:05,061] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13658
+[2023-03-08 15:06:05,118] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-08 15:06:05,118] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0

@@ -1,0 +1,174 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    CQUT作家
+{% endblock %}
+
+{% block content %}
+    <script src="{% static 'js/home.js' %}"></script>
+
+    <section class="spotlight bg-cover bg-size--cover" style="padding-bottom: 100px; margin-top: -50px;">
+        <span class="mask bg-primary"></span>
+        <div class="spotlight-holder py-sm pt-lg-lg">
+            <div class="container d-flex align-items-center">
+                <div class="row cols-xs-space cols-sm-space cols-md-space align-items-center justify-content-around">
+
+                    <div class="col-lg-5">
+                        <div class="position-relative">
+                            <img src="{% static 'images/outlineWrite.png' %}" class="img-center img-fluid rounded">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-center">
+                        <h2 class="heading display-4 font-weight-400 text-white mt-5 animated">
+                            <span class="font-weight-700">CQUT作家</span>
+                        </h2>
+                        <p style="font-size: xx-large" class="text-white">
+                            让AI辅助写作
+                        </p>
+                        <a href="{% url 'locate_generate_by_title' %}" class="btn bg-white mt-4">
+                            立即开始
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slice slice-lg" data-delimiter="1" style="margin-top: 50px">
+        <div class="container">
+            <div class="px-4">
+                <div class="row justify-content-center cols-xs-space cols-sm-space cols-md-space">
+                    <div class="col-lg-7">
+                        <div class="text-center">
+                            <h1 class="heading h3">
+                                尝试一下AI辅助写作
+                            </h1>
+                            <div class="row">
+                                <div class="input-group mb-3">
+                                    <input class="form-control" id="home_title" placeholder="在此输入一个标题">
+
+                                </div>
+                                <div class="input-group mb-3">
+                                    <button id="home_submit" type="submit" class="btn btn-sm btn-primary"
+                                            style="width: 100%; color: whitesmoke">生&nbsp;&nbsp;成
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-group mb-3">
+                                        <textarea class="form-control" rows="7" id="home_output"
+                                                  placeholder="请输入一句开头句，生成的文章将展示在此"></textarea>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slice slice-lg" data-delimiter="1">
+        <div class="container">
+            <div class="row cols-xs-space cols-sm-space align-items-center">
+                <div class="col-md-6">
+                    <img src="{% static 'images/news.png' %}"
+                         class="img-center img-fluid rounded z-depth-3">
+                </div>
+                <div class="col-md-6 col-lg-5 ml-lg-auto">
+                    <div class="pr-md-4">
+                        <h2 class="heading h2">
+                            热点发现
+                        </h2>
+                        <p class="lead text-gray mt-4">展示每天的热点新闻事件，为用户写作提供素材
+                        </p>
+                        <a href="{% url 'news' %}"
+                           class="btn btn-sm btn-primary" style="width: 100%">浏览素材</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slice slice-lg" data-delimiter="1">
+        <div class="container">
+            <div class="mb-md text-center">
+                <h2 class="heading h2">文本生成</h2>
+                <div class="fluid-paragraph text-center mt-4">
+                    <p class="lead lh-180">通过用户的一些输入生成一篇完整的文章</p>
+                </div>
+            </div>
+            <div class="row cols-xs-space cols-sm-space cols-md-space">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="{% static 'images/titleWrite.png' %}" style="width: 350px; height: 250px"
+                             class="card-img-top">
+                        <div class="card-body text-center">
+                            <h3 class="heading h5 mb-1">
+                                <span class="d-block">标题生成</span>
+                            </h3>
+                            <p class="mt-2">
+                                通过用户输入的标题和关键词，即可直接生成一篇完整的文章。以最简洁的输入，生成最符合用户输入的高质量文章。</p>
+                            <a href="{% url 'locate_generate_by_title' %}"
+                               class="btn btn-sm btn-primary" style="width: 100%">尝试一下</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="{% static 'images/abstractWrite.png' %}" style="width: 350px; height: 250px"
+                             class="card-img-top">
+                        <div class="card-body text-center">
+                            <h3 class="heading h5 mb-1">
+                                <span class="d-block">摘要生成</span>
+                            </h3>
+                            <p class="mt-2">
+                                用户需要输入标题和关键词，除此之外可以手动输入摘要，也可以从语料库中进行快速检索摘要，进行文章的生成。</p>
+                            <a href="{% url 'locate_generate_by_abstract' %}" target="_blank"
+                               class="btn btn-sm btn-primary" style="width: 100%">尝试一下</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="{% static 'images/outlineWrite.png' %}" style="width: 350px; height: 250px"
+                             class="card-img-top">
+                        <div class="card-body text-center">
+                            <h3 class="heading h5 mb-1">
+                                <span class="d-block">大纲生成</span>
+                            </h3>
+                            <p class="mt-2">
+                                用户需要输入标题和关键词，除此之外可以选择手动输入或检索大纲，摘要也是如此，从而生成一篇主题更相关的文章。</p>
+                            <a href="https://instagram.com/extrabright" target="_blank"
+                               class="btn btn-sm btn-primary" style="width: 100%">尝试一下</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slice slice-xl" data-delimiter="1">
+        <div class="container">
+            <div class="row cols-xs-space cols-sm-space align-items-center">
+                <div class="col-md-6 order-md-2 ml-lg-auto">
+                    <img src="{% static 'images/summarize.png' %}"
+                         class="img-center img-fluid rounded z-depth-3">
+                </div>
+                <div class="col-md-6 col-lg-5 order-md-1">
+                    <div class="pr-md-4">
+                        <h3 class="heading h3">
+                            文本摘要
+                        </h3>
+                        <p class="lead text-gray mt-4">
+                            用户输入一大段文字，对输入文本进行摘要的抽取，以及关键词的提取。</p>
+                        <a href="{% url 'locate_summarize' %}"
+                           class="btn btn-sm btn-primary" style="width: 100%">尝试一下</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+{% endblock %}

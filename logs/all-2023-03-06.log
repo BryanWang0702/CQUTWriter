@@ -1,0 +1,46 @@
+[2023-03-06 17:26:06,927] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-06 17:26:07,093] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-06 17:26:08,671] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-06 17:26:08,922] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-06 17:26:12,452] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7447
+[2023-03-06 17:26:12,493] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.8.3.js HTTP/1.1" 304 0
+[2023-03-06 17:26:12,496] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/twitter-bootstrap_3.3.7_js_bootstrap.js HTTP/1.1" 304 0
+[2023-03-06 17:26:12,497] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/theme.css HTTP/1.1" 304 0
+[2023-03-06 17:26:12,500] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap/bootstrap.min.js HTTP/1.1" 304 0
+[2023-03-06 17:26:12,500] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/fontawesome/js/fontawesome-all.min.js HTTP/1.1" 304 0
+[2023-03-06 17:26:12,516] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/demo.css HTTP/1.1" 200 6804
+[2023-03-06 17:26:12,517] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[2023-03-06 17:26:12,519] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/popper/popper.min.js HTTP/1.1" 304 0
+[2023-03-06 17:26:12,519] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+[2023-03-06 17:26:12,520] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js HTTP/1.1" 304 0
+[2023-03-06 17:26:12,521] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/input-mask/input-mask.min.js HTTP/1.1" 304 0
+[2023-03-06 17:26:12,521] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/nouislider/js/nouislider.min.js HTTP/1.1" 304 0
+[2023-03-06 17:26:12,522] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/textarea-autosize/textarea-autosize.min.js HTTP/1.1" 304 0
+[2023-03-06 17:26:12,522] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/theme.js HTTP/1.1" 304 0
+[2023-03-06 17:26:12,524] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 200 1169
+[2023-03-06 17:26:12,809] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-06 17:26:12,810] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 64073)
+
+[2023-03-06 17:27:46,874] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7469
+[2023-03-06 17:27:46,936] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-06 17:27:46,937] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 64077)
+
+[2023-03-06 17:27:56,840] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29860
+[2023-03-06 17:28:27,723] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7469
+[2023-03-06 17:28:27,767] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/demo.css HTTP/1.1" 200 6804
+[2023-03-06 17:28:27,810] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-06 17:28:27,810] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 64071)
+
+[2023-03-06 17:28:29,902] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 8104
+[2023-03-06 17:28:29,941] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/summarize.js HTTP/1.1" 200 579
+[2023-03-06 17:28:29,967] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-06 17:28:29,968] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 64116)
+
+[2023-03-06 17:28:31,186] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 7469
+[2023-03-06 17:28:32,280] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 8104
+[2023-03-06 17:28:36,674] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 8343
+[2023-03-06 17:28:36,715] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/generate.js HTTP/1.1" 200 6906
+[2023-03-06 17:29:05,543] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6191
+[2023-03-06 17:30:01,685] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6221
+[2023-03-06 17:30:02,520] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 28612
+[2023-03-06 17:30:03,854] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 6221

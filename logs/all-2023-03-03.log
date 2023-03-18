@@ -1,0 +1,382 @@
+[2023-03-03 08:55:16,525] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-03 08:55:16,948] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-03 08:55:18,658] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-03 08:55:19,698] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-03 08:55:22,520] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5544
+[2023-03-03 08:55:22,554] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.8.3.js HTTP/1.1" 304 0
+[2023-03-03 08:55:22,557] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/twitter-bootstrap_3.3.7_js_bootstrap.js HTTP/1.1" 304 0
+[2023-03-03 08:55:22,581] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/theme.css HTTP/1.1" 200 210131
+[2023-03-03 08:55:22,594] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 200 547
+[2023-03-03 08:55:22,601] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/demo.css HTTP/1.1" 200 6804
+[2023-03-03 08:55:22,602] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/popper/popper.min.js HTTP/1.1" 200 19038
+[2023-03-03 08:55:22,640] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 200 33098
+[2023-03-03 08:55:22,644] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 86663
+[2023-03-03 08:55:22,647] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js HTTP/1.1" 200 9377
+[2023-03-03 08:55:22,652] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/input-mask/input-mask.min.js HTTP/1.1" 200 8006
+[2023-03-03 08:55:22,671] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/textarea-autosize/textarea-autosize.min.js HTTP/1.1" 200 3705
+[2023-03-03 08:55:22,675] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap/bootstrap.min.js HTTP/1.1" 200 48950
+[2023-03-03 08:55:22,677] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/nouislider/js/nouislider.min.js HTTP/1.1" 200 22054
+[2023-03-03 08:55:22,680] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/theme.js HTTP/1.1" 200 6926
+[2023-03-03 08:55:22,702] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/fontawesome/js/fontawesome-all.min.js HTTP/1.1" 200 672453
+[2023-03-03 08:55:22,969] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-03 08:55:22,969] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 51923)
+
+[2023-03-03 08:55:31,767] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6180
+[2023-03-03 08:55:31,812] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/summarize.js HTTP/1.1" 200 579
+[2023-03-03 08:55:32,611] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29796
+[2023-03-03 08:55:33,924] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5544
+[2023-03-03 08:55:45,246] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/generate/ HTTP/1.1" 200 1008
+[2023-03-03 08:55:57,341] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/generate/ HTTP/1.1" 200 2589
+[2023-03-03 09:01:21,500] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-03 09:01:21,574] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-03 09:01:22,218] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-03 09:01:22,656] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-03 09:01:34,173] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5544
+[2023-03-03 09:01:34,198] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52053)
+
+[2023-03-03 09:01:34,202] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52054)
+
+[2023-03-03 09:01:34,202] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/popper/popper.min.js HTTP/1.1" 200 19038
+[2023-03-03 09:01:34,203] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52056)
+
+[2023-03-03 09:01:34,205] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52055)
+
+[2023-03-03 09:01:34,205] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52057)
+
+[2023-03-03 09:01:34,207] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52058)
+
+[2023-03-03 09:01:34,209] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52059)
+
+[2023-03-03 09:01:34,210] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52060)
+
+[2023-03-03 09:01:34,211] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52061)
+
+[2023-03-03 09:01:34,211] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52062)
+
+[2023-03-03 09:01:34,244] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-03 09:01:34,244] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52063)
+
+[2023-03-03 09:01:48,134] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/generate/ HTTP/1.1" 200 1662
+[2023-03-03 09:05:17,203] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29788
+[2023-03-03 09:05:17,218] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/demo.css HTTP/1.1" 200 6804
+[2023-03-03 09:05:17,219] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 86663
+[2023-03-03 09:05:17,220] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/theme.css HTTP/1.1" 200 210131
+[2023-03-03 09:05:17,222] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/popper/popper.min.js HTTP/1.1" 200 19038
+[2023-03-03 09:05:17,223] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap/bootstrap.min.js HTTP/1.1" 200 48950
+[2023-03-03 09:05:17,227] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/input-mask/input-mask.min.js HTTP/1.1" 200 8006
+[2023-03-03 09:05:17,227] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js HTTP/1.1" 200 9377
+[2023-03-03 09:05:17,228] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 200 33098
+[2023-03-03 09:05:17,230] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/fontawesome/js/fontawesome-all.min.js HTTP/1.1" 200 672453
+[2023-03-03 09:05:17,235] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/textarea-autosize/textarea-autosize.min.js HTTP/1.1" 200 3705
+[2023-03-03 09:05:17,235] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/theme.js HTTP/1.1" 200 6926
+[2023-03-03 09:05:17,235] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/nouislider/js/nouislider.min.js HTTP/1.1" 200 22054
+[2023-03-03 09:05:17,266] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/twitter-bootstrap_3.3.7_js_bootstrap.js HTTP/1.1" 200 72084
+[2023-03-03 09:05:17,277] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.8.3.js HTTP/1.1" 200 275529
+[2023-03-03 09:08:40,394] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-03 09:08:40,459] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-03 09:08:41,125] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-03 09:08:41,498] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-03 09:08:46,425] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29806
+[2023-03-03 09:08:46,950] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5544
+[2023-03-03 09:08:46,978] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 200 823
+[2023-03-03 09:09:57,836] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52613)
+
+[2023-03-03 09:09:57,836] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52624)
+
+[2023-03-03 09:09:57,837] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52625)
+
+[2023-03-03 09:09:57,958] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52626)
+
+[2023-03-03 09:10:03,644] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5544
+[2023-03-03 09:10:03,689] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 200 823
+[2023-03-03 09:13:22,045] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-03 09:13:22,112] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-03 09:13:22,744] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-03 09:13:23,079] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-03 09:13:27,168] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5544
+[2023-03-03 09:13:27,204] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 200 840
+[2023-03-03 09:13:27,899] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5544
+[2023-03-03 09:13:27,937] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-03 09:13:39,049] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/generate/ HTTP/1.1" 200 1047
+[2023-03-03 09:14:15,192] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5543
+[2023-03-03 09:14:15,230] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-03 09:14:16,817] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5543
+[2023-03-03 09:15:40,544] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-03 09:15:40,623] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-03 09:15:41,347] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-03 09:15:41,658] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-03 09:15:46,247] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:15:46,292] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 200 852
+[2023-03-03 09:15:46,520] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52159)
+
+[2023-03-03 09:16:33,622] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:16:33,657] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-03 09:16:34,838] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:17:33,109] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:17:33,144] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 200 854
+[2023-03-03 09:17:33,720] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:17:33,760] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-03 09:17:34,348] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:17:34,375] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-03 09:17:35,429] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:17:35,473] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-03 09:17:43,112] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-03 09:17:43,179] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-03 09:17:43,864] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-03 09:17:44,276] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-03 09:17:48,382] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:17:48,414] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-03 09:17:49,086] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:17:49,124] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-03 09:20:03,687] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-03 09:20:03,766] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-03 09:20:04,463] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-03 09:20:05,100] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-03 09:20:07,248] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:20:07,287] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 200 959
+[2023-03-03 09:20:08,632] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:20:08,668] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-03 09:20:10,584] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:20:10,619] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-03 09:20:24,194] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/generate/ HTTP/1.1" 200 1101
+[2023-03-03 09:20:59,892] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:20:59,938] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 200 979
+[2023-03-03 09:21:07,303] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/generate/ HTTP/1.1" 200 919
+[2023-03-03 09:21:11,712] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/generate/ HTTP/1.1" 200 1840
+[2023-03-03 09:21:19,624] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/generate/ HTTP/1.1" 200 2746
+[2023-03-03 09:21:28,499] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/generate/ HTTP/1.1" 200 999
+[2023-03-03 09:22:07,643] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-03 09:22:07,709] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-03 09:22:08,342] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-03 09:22:08,693] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-03 09:22:11,418] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:22:11,449] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-03 09:22:12,503] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:22:16,072] [homeApp.py:52] [homeApp:get_text] [ERROR]- HTTPConnectionPool(host='10.22.573.6', port=8080): Max retries exceeded with url: /generate_bySentence?inputContent1=%E5%A4%A7%E6%95%B0%E6%8D%AE&inputContent2=&k=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DDF6671208>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2023-03-03 09:22:16,150] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /home/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Home\views.py", line 24, in home_generate
+    "outputContent": homeApp.get_text(title, sentence)
+  File "E:\bryan\NLP\MyAiwrite\Home\homeApp.py", line 55, in get_text
+    text = json.loads(res.text)
+AttributeError: 'str' object has no attribute 'text'
+[2023-03-03 09:22:16,151] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /home/generate/ HTTP/1.1" 500 72100
+[2023-03-03 09:22:40,868] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:22:40,904] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-03 09:25:41,095] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-03 09:25:41,170] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-03 09:25:41,816] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-03 09:25:42,224] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-03 09:25:55,687] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/generate/ HTTP/1.1" 200 978
+[2023-03-03 09:26:08,687] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-03 09:26:08,770] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-03 09:26:09,523] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-03 09:26:09,952] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-03 09:26:13,230] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:26:13,268] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 200 1286
+[2023-03-03 09:26:13,277] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/popper/popper.min.js HTTP/1.1" 200 19038
+[2023-03-03 09:26:13,278] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 59763)
+
+[2023-03-03 09:26:13,281] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 59761)
+
+[2023-03-03 09:26:13,281] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 59762)
+
+[2023-03-03 09:26:13,283] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 59764)
+
+[2023-03-03 09:26:13,285] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 59765)
+
+[2023-03-03 09:26:13,285] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 59766)
+
+[2023-03-03 09:26:13,286] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/theme.js HTTP/1.1" 200 6926
+[2023-03-03 09:26:17,087] [homeApp.py:52] [homeApp:get_text] [ERROR]- HTTPConnectionPool(host='10.22.5700.6', port=8080): Max retries exceeded with url: /generate_bySentence?inputContent1=%E4%BD%A0%E8%A7%89%E5%BE%97%E5%91%A2&inputContent2=&k=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D252F1B88>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2023-03-03 09:26:17,114] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /home/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Home\views.py", line 24, in home_generate
+    "outputContent": homeApp.get_text(title, sentence)
+  File "E:\bryan\NLP\MyAiwrite\Home\homeApp.py", line 55, in get_text
+    text = json.loads(res.text)
+AttributeError: 'str' object has no attribute 'text'
+[2023-03-03 09:26:17,115] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /home/generate/ HTTP/1.1" 500 72114
+[2023-03-03 09:26:18,902] [homeApp.py:52] [homeApp:get_text] [ERROR]- HTTPConnectionPool(host='10.22.5700.6', port=8080): Max retries exceeded with url: /generate_bySentence?inputContent1=%E4%BD%A0%E8%A7%89%E5%BE%97%E5%91%A2&inputContent2=%E5%A5%BD%E5%83%8F%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%EF%BC%8C%E8%AF%B7%E5%86%8D%E8%AF%95%E4%B8%80%E6%AC%A1%E6%88%96%E8%81%94%E7%B3%BB%E7%AE%A1%E7%90%86%E5%91%98%EF%BC%9Abryanwang0702@163.com&k=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D2534B888>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2023-03-03 09:26:18,925] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /home/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Home\views.py", line 24, in home_generate
+    "outputContent": homeApp.get_text(title, sentence)
+  File "E:\bryan\NLP\MyAiwrite\Home\homeApp.py", line 55, in get_text
+    text = json.loads(res.text)
+AttributeError: 'str' object has no attribute 'text'
+[2023-03-03 09:26:18,925] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /home/generate/ HTTP/1.1" 500 72427
+[2023-03-03 09:26:20,310] [homeApp.py:52] [homeApp:get_text] [ERROR]- HTTPConnectionPool(host='10.22.5700.6', port=8080): Max retries exceeded with url: /generate_bySentence?inputContent1=%E4%BD%A0%E8%A7%89%E5%BE%97%E5%91%A2&inputContent2=%E5%A5%BD%E5%83%8F%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%EF%BC%8C%E8%AF%B7%E5%86%8D%E8%AF%95%E4%B8%80%E6%AC%A1%E6%88%96%E8%81%94%E7%B3%BB%E7%AE%A1%E7%90%86%E5%91%98%EF%BC%9Abryanwang0702@163.com&k=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D2538B9C8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2023-03-03 09:26:20,332] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /home/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Home\views.py", line 24, in home_generate
+    "outputContent": homeApp.get_text(title, sentence)
+  File "E:\bryan\NLP\MyAiwrite\Home\homeApp.py", line 55, in get_text
+    text = json.loads(res.text)
+AttributeError: 'str' object has no attribute 'text'
+[2023-03-03 09:26:20,333] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /home/generate/ HTTP/1.1" 500 72427
+[2023-03-03 09:33:58,842] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-03 09:33:58,923] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-03 09:33:59,578] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-03 09:34:00,038] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-03 09:34:02,784] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:34:02,833] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 200 1169
+[2023-03-03 09:34:03,102] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 59897)
+
+[2023-03-03 09:34:04,558] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 29908
+[2023-03-03 09:34:05,780] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 09:34:05,827] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-03 09:34:15,870] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/generate/ HTTP/1.1" 200 1072
+[2023-03-03 09:34:18,534] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 6419
+[2023-03-03 09:34:18,593] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/generate.js HTTP/1.1" 200 6903
+[2023-03-03 09:34:43,221] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /titleGenerate/generate/ HTTP/1.1" 200 2961
+[2023-03-03 09:34:49,137] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 6940
+[2023-03-03 09:34:49,167] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/generate.js HTTP/1.1" 304 0
+[2023-03-03 09:35:20,548] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /abstractGenerate/generate/ HTTP/1.1" 200 2848
+[2023-03-03 09:35:34,544] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 7683
+[2023-03-03 09:35:34,582] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/generate.js HTTP/1.1" 200 6903
+[2023-03-03 09:37:51,133] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-03 09:37:51,206] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-03 09:37:51,900] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-03 09:37:52,307] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-03 09:37:58,280] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 7683
+[2023-03-03 09:37:58,321] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/generate.js HTTP/1.1" 200 6906
+[2023-03-03 09:38:11,325] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_abstract/ HTTP/1.1" 200 40
+[2023-03-03 09:38:13,762] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_outline/ HTTP/1.1" 200 154
+[2023-03-03 09:39:51,878] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /outlineGenerate/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Generate\views.py", line 109, in generate_by_outline
+    generateApp.outline_generate(title, keywords, abstract, outline)
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 93, in outline_generate
+    self.article = self.send_request()
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 152, in send_request
+    article.append(json.loads(res.text)["outputContent"][0]+"\n")
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-03 09:39:51,880] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /outlineGenerate/generate/ HTTP/1.1" 500 104129
+[2023-03-03 09:41:02,729] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-03 09:41:02,939] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-03 09:41:07,740] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-03 09:41:07,888] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-03 09:57:25,673] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 7683
+[2023-03-03 09:57:25,706] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/generate.js HTTP/1.1" 200 6906
+[2023-03-03 10:01:10,909] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /outlineGenerate/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Generate\views.py", line 109, in generate_by_outline
+    generateApp.outline_generate(title, keywords, abstract, outline)
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 93, in outline_generate
+    self.article = self.send_request()
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 152, in send_request
+    article.append(json.loads(res.text)["outputContent"][0]+"\n")
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-03 10:01:10,913] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 60136)
+
+[2023-03-03 10:03:27,811] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-03 10:03:27,875] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-03 10:03:29,005] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-03 10:03:29,274] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-03 10:07:54,160] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 7683
+[2023-03-03 10:07:54,199] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/generate.js HTTP/1.1" 200 6906
+[2023-03-03 10:07:56,922] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 7683
+[2023-03-03 10:08:13,294] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_abstract/ HTTP/1.1" 200 40
+[2023-03-03 10:08:15,258] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_outline/ HTTP/1.1" 200 154
+[2023-03-03 10:09:31,334] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 10:09:31,381] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 200 1169
+[2023-03-03 10:09:43,776] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/generate/ HTTP/1.1" 200 981
+[2023-03-03 10:09:54,273] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 6419
+[2023-03-03 10:09:58,826] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /outlineGenerate/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Generate\views.py", line 109, in generate_by_outline
+    generateApp.outline_generate(title, keywords, abstract, outline)
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 93, in outline_generate
+    self.article = self.send_request()
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 152, in send_request
+    article.append(json.loads(res.text)["outputContent"][0]+"\n")
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-03 10:09:58,827] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 63760)
+
+[2023-03-03 10:10:01,728] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /titleGenerate/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Generate\views.py", line 70, in generate_by_title
+    generateApp.title_generate(title, keywords)
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 64, in title_generate
+    self.article = self.send_request()
+  File "E:\bryan\NLP\MyAiwrite\Generate\generateApp.py", line 152, in send_request
+    article.append(json.loads(res.text)["outputContent"][0]+"\n")
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-03 10:10:01,729] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /titleGenerate/generate/ HTTP/1.1" 500 90431
+[2023-03-03 10:10:05,205] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 10:10:05,596] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5545
+[2023-03-03 10:10:12,770] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /home/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Home\views.py", line 24, in home_generate
+    "outputContent": homeApp.get_text(title, sentence)
+  File "E:\bryan\NLP\MyAiwrite\Home\homeApp.py", line 55, in get_text
+    text = json.loads(res.text)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-03-03 10:10:12,771] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /home/generate/ HTTP/1.1" 500 85592

@@ -1,0 +1,20 @@
+[2023-03-18 15:03:42,455] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-18 15:03:42,743] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-18 15:03:42,927] [newsApp.py:175] [newsApp:weibo_crawler] [ERROR]- (MaxRetryError("HTTPSConnectionPool(host='weibo.com', port=443): Max retries exceeded with url: /ajax/statuses/hot_band (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))"),)
+[2023-03-18 15:03:42,940] [newsApp.py:239] [newsApp:zhihu_crawler] [ERROR]- (MaxRetryError("HTTPSConnectionPool(host='www.zhihu.com', port=443): Max retries exceeded with url: /api/v3/feed/topstory/hot-lists/total?limit=50 (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))"),)
+[2023-03-18 15:03:43,291] [newsApp.py:144] [newsApp:toutiao_crawler] [ERROR]- HTTPSConnectionPool(host='www.toutiao.com', port=443): Max retries exceeded with url: /hot-event/hot-board/?origin=toutiao_pc (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+[2023-03-18 15:03:43,305] [newsApp.py:204] [newsApp:baidu_crawler] [ERROR]- HTTPSConnectionPool(host='top.baidu.com', port=443): Max retries exceeded with url: /board?tab=realtime (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+[2023-03-18 15:03:43,306] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-18 15:03:44,071] [summarizeApp.py:46] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-18 15:04:19,400] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-18 15:04:19,461] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-18 15:04:19,477] [newsApp.py:175] [newsApp:weibo_crawler] [ERROR]- (MaxRetryError("HTTPSConnectionPool(host='weibo.com', port=443): Max retries exceeded with url: /ajax/statuses/hot_band (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))"),)
+[2023-03-18 15:04:19,490] [newsApp.py:239] [newsApp:zhihu_crawler] [ERROR]- (MaxRetryError("HTTPSConnectionPool(host='www.zhihu.com', port=443): Max retries exceeded with url: /api/v3/feed/topstory/hot-lists/total?limit=50 (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))"),)
+[2023-03-18 15:04:19,673] [newsApp.py:144] [newsApp:toutiao_crawler] [ERROR]- HTTPSConnectionPool(host='www.toutiao.com', port=443): Max retries exceeded with url: /hot-event/hot-board/?origin=toutiao_pc (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+[2023-03-18 15:04:19,689] [newsApp.py:204] [newsApp:baidu_crawler] [ERROR]- HTTPSConnectionPool(host='top.baidu.com', port=443): Max retries exceeded with url: /board?tab=realtime (Caused by ProxyError('Cannot connect to proxy.', OSError(0, 'Error')))
+[2023-03-18 15:04:19,691] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-18 15:04:20,041] [summarizeApp.py:46] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-18 15:04:36,286] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-18 15:04:36,348] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-18 15:04:36,959] [summarizeApp.py:46] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-18 15:04:38,299] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫

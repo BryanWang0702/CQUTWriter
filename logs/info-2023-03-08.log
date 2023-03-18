@@ -1,0 +1,57 @@
+[2023-03-08 08:52:58,322] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 08:52:58,388] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 08:52:59,568] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 08:52:59,751] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 09:10:01,025] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 09:10:01,087] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 09:10:01,703] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 09:10:02,206] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 09:14:11,735] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 09:14:11,805] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 09:14:12,430] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 09:14:12,910] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 09:59:16,696] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 09:59:16,758] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 09:59:17,356] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 09:59:17,931] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 09:59:43,770] [homeApp.py:52] [homeApp:get_text] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /generate_bySentence?inputContent1=&inputContent2=&k=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C3901B5A48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 10:59:18,900] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 12:26:50,558] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 12:26:50,626] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 12:26:51,243] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 12:26:51,722] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 12:55:07,733] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 12:55:07,796] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 12:55:08,402] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 12:55:08,956] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 13:04:02,475] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 13:04:02,549] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 13:04:03,152] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 13:04:03,639] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 13:06:05,162] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 13:06:05,225] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 13:06:05,807] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 13:06:06,253] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 13:06:18,807] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 13:06:18,870] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 13:06:19,523] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 13:06:19,840] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 13:26:47,933] [generateApp.py:110] [generateApp:get_abstract] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /extract_byKey?inputContent=&topK=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000262BAF20188>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 13:28:28,446] [generateApp.py:110] [generateApp:get_abstract] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /extract_byKey?inputContent=&topK=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000262BAF52AC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 13:28:32,417] [generateApp.py:110] [generateApp:get_abstract] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /extract_byKey?inputContent=&topK=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000262BAF3C3C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 13:36:30,046] [generateApp.py:110] [generateApp:get_abstract] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /extract_byKey?inputContent=&topK=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000262BAF86508>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 13:44:46,783] [generateApp.py:110] [generateApp:get_abstract] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /extract_byKey?inputContent=&topK=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000262BAF20AC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 13:47:24,849] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 13:47:24,921] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 13:47:25,510] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 13:47:26,102] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-08 13:56:03,749] [generateApp.py:110] [generateApp:get_abstract] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /extract_byKey?inputContent=&topK=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012045836448>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 14:11:04,853] [homeApp.py:52] [homeApp:get_text] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /generate_bySentence?inputContent1=&inputContent2=&k=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012045893948>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 14:11:40,585] [homeApp.py:52] [homeApp:get_text] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /generate_bySentence?inputContent1=&inputContent2=%E5%A5%BD%E5%83%8F%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%EF%BC%8C%E8%AF%B7%E5%86%8D%E8%AF%95%E4%B8%80%E6%AC%A1%E6%88%96%E8%81%94%E7%B3%BB%E7%AE%A1%E7%90%86%E5%91%98%EF%BC%9Abryanwang0702@163.com&k=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000120458D9E88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 14:11:42,287] [homeApp.py:52] [homeApp:get_text] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /generate_bySentence?inputContent1=&inputContent2=%E5%A5%BD%E5%83%8F%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%EF%BC%8C%E8%AF%B7%E5%86%8D%E8%AF%95%E4%B8%80%E6%AC%A1%E6%88%96%E8%81%94%E7%B3%BB%E7%AE%A1%E7%90%86%E5%91%98%EF%BC%9Abryanwang0702@163.com&k=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000120459200C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 14:12:37,235] [homeApp.py:52] [homeApp:get_text] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /generate_bySentence?inputContent1=&inputContent2=&k=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012045883F88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 14:12:40,423] [homeApp.py:52] [homeApp:get_text] [ERROR]- HTTPConnectionPool(host='10.22.57.6', port=8080): Max retries exceeded with url: /generate_bySentence?inputContent1=&inputContent2=%E5%A5%BD%E5%83%8F%E5%87%BA%E9%97%AE%E9%A2%98%E4%BA%86%EF%BC%8C%E8%AF%B7%E5%86%8D%E8%AF%95%E4%B8%80%E6%AC%A1%E6%88%96%E8%81%94%E7%B3%BB%E7%AE%A1%E7%90%86%E5%91%98%EF%BC%9Abryanwang0702@163.com&k=1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000012045946EC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2023-03-08 14:45:25,742] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-08 14:45:25,809] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-08 14:45:26,682] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-08 14:45:27,078] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫

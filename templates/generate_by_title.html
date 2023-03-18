@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    标题生成
+{% endblock %}
+
+
+{% block content %}
+    <script src="{% static 'js/generate.js' %}"></script>
+    <h1 class="heading h1 strong-600 text-center mb-5">
+        根据标题生成文章
+    </h1>
+
+    <!-- 标题生成 -->
+    <div class="container">
+        <div class="row">
+            <div class="col" style="margin-right: 20px">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" style="width: 70px" id="addon-wrapping">标&nbsp;&nbsp;题</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="请输入标题" id="title_title">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" style="width: 70px">关键词</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="请输入关键词，以逗号隔开" id="title_keywords">
+                </div>
+
+                <div class="input-group mb-3">
+                    <button class="form-control" type="submit" id="title_submit" style="background-color: #288cff; color: whitesmoke">一键生成文章</button>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <textarea id="title_output" class="form-control" rows="25"
+                                      placeholder="生成的文章将会展示在此"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

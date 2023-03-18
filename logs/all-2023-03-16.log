@@ -1,0 +1,101 @@
+[2023-03-16 14:54:16,502] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-16 14:54:16,748] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-16 14:54:18,807] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-16 14:54:19,165] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-16 14:54:21,054] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13658
+[2023-03-16 14:54:21,085] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/twitter-bootstrap_3.3.7_js_bootstrap.js HTTP/1.1" 304 0
+[2023-03-16 14:54:21,087] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-16 14:54:21,090] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/popper/popper.min.js HTTP/1.1" 304 0
+[2023-03-16 14:54:21,101] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.8.3.js HTTP/1.1" 304 0
+[2023-03-16 14:54:21,115] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 304 0
+[2023-03-16 14:54:21,115] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap/bootstrap.min.js HTTP/1.1" 304 0
+[2023-03-16 14:54:21,116] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[2023-03-16 14:54:21,117] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/fontawesome/js/fontawesome-all.min.js HTTP/1.1" 304 0
+[2023-03-16 14:54:21,118] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+[2023-03-16 14:54:21,119] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/input-mask/input-mask.min.js HTTP/1.1" 304 0
+[2023-03-16 14:54:21,119] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js HTTP/1.1" 304 0
+[2023-03-16 14:54:21,120] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/nouislider/js/nouislider.min.js HTTP/1.1" 304 0
+[2023-03-16 14:54:21,121] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/textarea-autosize/textarea-autosize.min.js HTTP/1.1" 304 0
+[2023-03-16 14:54:21,121] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/theme.js HTTP/1.1" 304 0
+[2023-03-16 14:54:21,128] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/theme.css HTTP/1.1" 200 210130
+[2023-03-16 14:54:21,132] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/summarize.png HTTP/1.1" 304 0
+[2023-03-16 14:54:21,132] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/news.png HTTP/1.1" 304 0
+[2023-03-16 14:54:21,132] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/titleWrite.png HTTP/1.1" 304 0
+[2023-03-16 14:54:21,132] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/abstractWrite.png HTTP/1.1" 304 0
+[2023-03-16 14:54:21,132] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/outlineWrite.png HTTP/1.1" 304 0
+[2023-03-16 14:54:21,348] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-16 14:54:21,348] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 62570)
+
+[2023-03-16 14:54:24,128] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 7577
+[2023-03-16 14:54:24,153] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/generate.js HTTP/1.1" 304 0
+[2023-03-16 14:54:25,815] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7058
+[2023-03-16 14:55:08,420] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7080
+[2023-03-16 14:58:36,149] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31497
+[2023-03-16 14:58:36,174] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/theme.css HTTP/1.1" 200 210130
+[2023-03-16 14:58:36,177] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/self.css HTTP/1.1" 200 231
+[2023-03-16 14:58:36,202] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/twitter-bootstrap_3.3.7_js_bootstrap.js HTTP/1.1" 200 72084
+[2023-03-16 14:58:36,207] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/popper/popper.min.js HTTP/1.1" 200 19038
+[2023-03-16 14:58:36,222] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/bootstrap/bootstrap.min.js HTTP/1.1" 200 48950
+[2023-03-16 14:58:36,227] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 86663
+[2023-03-16 14:58:36,236] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.8.3.js HTTP/1.1" 200 275529
+[2023-03-16 14:58:36,239] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 200 33098
+[2023-03-16 14:58:36,244] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js HTTP/1.1" 200 9377
+[2023-03-16 14:58:36,251] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/input-mask/input-mask.min.js HTTP/1.1" 200 8006
+[2023-03-16 14:58:36,255] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/theme.js HTTP/1.1" 200 6926
+[2023-03-16 14:58:36,261] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/textarea-autosize/textarea-autosize.min.js HTTP/1.1" 200 3705
+[2023-03-16 14:58:36,262] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/nouislider/js/nouislider.min.js HTTP/1.1" 200 22054
+[2023-03-16 14:58:36,290] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/vendor/fontawesome/js/fontawesome-all.min.js HTTP/1.1" 200 672453
+[2023-03-16 14:58:45,459] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 7036
+[2023-03-16 14:58:48,677] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templateGenerate/ HTTP/1.1" 200 6602
+[2023-03-16 15:01:32,768] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templateGenerate/ HTTP/1.1" 200 8424
+[2023-03-16 15:02:44,310] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 13658
+[2023-03-16 15:02:58,932] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templateGenerate/ HTTP/1.1" 200 8424
+[2023-03-16 15:04:42,258] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templateGenerate/ HTTP/1.1" 200 11990
+[2023-03-16 15:04:42,297] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/backgrounds/img-1.jpg
+[2023-03-16 15:04:42,298] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/city-1.jpg
+[2023-03-16 15:04:42,299] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/backgrounds/img-1.jpg HTTP/1.1" 404 3988
+[2023-03-16 15:04:42,300] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/city-2.jpg
+[2023-03-16 15:04:42,300] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/city-1.jpg HTTP/1.1" 404 3967
+[2023-03-16 15:04:42,301] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/city-2.jpg HTTP/1.1" 404 3967
+[2023-03-16 15:05:20,289] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templateGenerate/ HTTP/1.1" 200 11917
+[2023-03-16 15:05:20,325] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/city-1.jpg
+[2023-03-16 15:05:20,326] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/city-1.jpg HTTP/1.1" 404 3967
+[2023-03-16 15:05:20,327] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/city-2.jpg
+[2023-03-16 15:05:20,327] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/city-2.jpg HTTP/1.1" 404 3967
+[2023-03-16 15:05:40,464] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templateGenerate/ HTTP/1.1" 200 11692
+[2023-03-16 15:05:40,501] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/city-1.jpg
+[2023-03-16 15:05:40,502] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/city-2.jpg
+[2023-03-16 15:05:40,502] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/city-1.jpg HTTP/1.1" 404 3967
+[2023-03-16 15:05:40,502] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/city-2.jpg HTTP/1.1" 404 3967
+[2023-03-16 15:08:04,982] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templateGenerate/ HTTP/1.1" 200 11298
+[2023-03-16 15:08:05,018] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/city-2.jpg
+[2023-03-16 15:08:05,018] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/city-2.jpg HTTP/1.1" 404 3967
+[2023-03-16 15:08:06,971] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templateGenerate/ HTTP/1.1" 200 11298
+[2023-03-16 15:08:07,299] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/city-2.jpg
+[2023-03-16 15:08:07,300] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/city-2.jpg HTTP/1.1" 404 3967
+[2023-03-16 15:08:10,416] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templateGenerate/ HTTP/1.1" 200 11298
+[2023-03-16 15:08:10,456] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/city-2.jpg
+[2023-03-16 15:08:10,456] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/city-2.jpg HTTP/1.1" 404 3967
+[2023-03-16 15:10:00,919] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-16 15:10:00,980] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-16 15:10:01,550] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-16 15:10:02,989] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-16 15:10:32,277] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-16 15:10:32,339] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-16 15:10:32,905] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-16 15:10:34,325] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-16 15:10:36,513] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templateGenerate/ HTTP/1.1" 200 11298
+[2023-03-16 15:10:36,559] [log.py:230] [log:log_response] [WARNING]- Not Found: /assets/images/prv/city-2.jpg
+[2023-03-16 15:10:36,559] [basehttp.py:161] [basehttp:log_message] [WARNING]- "GET /assets/images/prv/city-2.jpg HTTP/1.1" 404 3967
+[2023-03-16 15:10:36,570] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-16 15:10:36,571] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 62704)
+
+[2023-03-16 15:13:55,218] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templateGenerate/ HTTP/1.1" 200 11089
+[2023-03-16 15:14:17,937] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templateGenerate/ HTTP/1.1" 200 16749
+[2023-03-16 15:14:18,535] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templateGenerate/ HTTP/1.1" 200 16749
+[2023-03-16 15:14:18,568] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 62719)
+
+[2023-03-16 15:14:18,568] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 62720)
+
+[2023-03-16 15:14:22,846] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templateGenerate/ HTTP/1.1" 200 16749
+[2023-03-16 15:15:13,434] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /templateGenerate/ HTTP/1.1" 200 16749

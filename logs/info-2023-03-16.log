@@ -1,0 +1,12 @@
+[2023-03-16 14:54:16,502] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-16 14:54:16,748] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-16 14:54:18,807] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-16 14:54:19,165] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-16 15:10:00,919] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-16 15:10:00,980] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-16 15:10:01,550] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-16 15:10:02,989] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-16 15:10:32,277] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-16 15:10:32,339] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-16 15:10:32,905] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-16 15:10:34,325] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫

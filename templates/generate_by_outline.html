@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    大纲生成
+{% endblock %}
+
+
+{% block content %}
+    <script src="{% static 'js/generate.js' %}"></script>
+    <h1 class="heading h1 strong-600 text-center mb-5">
+        根据大纲生成文章
+    </h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col" style="margin-right: 20px">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" style="width: 70px">标&nbsp;&nbsp;题</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="请输入标题" id="outline_title">
+                </div>
+
+                <div class="input-group mb-3">
+
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" style="width: 70px">关键词</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="请输入关键词，以逗号隔开" id="outline_keywords">
+                </div>
+
+                <div class="input-group mb-3">
+                    <select id="outline_abstract_select" class="form-control selectpicker">
+                        <option value="0" selected>无需摘要</option>
+                        <option value="1">检索摘要</option>
+                        <option value="2">自定义摘要</option>
+                    </select>
+                </div>
+
+                <div class="input-group mb-3"  id="outline_abstract_div">
+                    <textarea class="form-control" rows="3" id="outline_abstract" placeholder="请在此输入自定义摘要，30~200字"></textarea>
+                </div>
+
+                <div class="input-group mb-3">
+                    <select id="outline_outline_select" class="form-control selectpicker">
+                        <option value="1">检索大纲</option>
+                        <option value="2" selected>自定义大纲</option>
+                    </select>
+                </div>
+
+                <div class="input-group mb-3">
+                    <textarea class="form-control" rows="5" id="outline_outline" placeholder="请在此输入自定义大纲，如 &#10 1. 农业大数据在近几年得到了迅速发展。&#10 2. 互联网对传统产业带来冲击随着互联网的发展"></textarea>
+                </div>
+
+                <div class="input-group mb-3">
+                    <button class="form-control" type="submit" id="outline_submit" style="background-color: #288cff; color: whitesmoke">一键生成文章</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <textarea id="outline_output" class="form-control" rows="25"
+                                      placeholder="生成的文章将会展示在此"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

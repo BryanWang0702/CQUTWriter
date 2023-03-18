@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    摘要生成
+{% endblock %}
+
+
+{% block content %}
+
+    <script src="{% static 'js/summarize.js' %}"></script>
+
+    <h1 class="heading h1 strong-600 text-center mb-5">
+        文本摘要&关键词提取
+    </h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="input-group mb-3">
+                <textarea class="form-control" rows="13" id="summarize_input" placeholder="请在此输入100字以上的文本进行摘要"></textarea>
+            </div>
+
+            <div class="input-group mb-3">
+                <button class="form-control" type="submit" id="summarize_submit" style="background-color: #288cff; color: whitesmoke">
+                    一键提取摘要&关键词
+                </button>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"
+                          style="width: 70px">摘要</span>
+                </div>
+                <textarea class="form-control" rows="5" id="summarize_abstract" placeholder="摘要将展示在此"></textarea>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"
+                          style="width: 70px">关键词</span>
+                </div>
+                <input class="form-control" id="summarize_keywords" placeholder="关键词将展示在此">
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

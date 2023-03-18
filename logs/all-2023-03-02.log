@@ -1,0 +1,186 @@
+[2023-03-02 09:05:51,755] [generateApp.py:51] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-02 09:05:53,495] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-02 09:05:54,018] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-02 09:07:07,294] [generateApp.py:51] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-02 09:07:07,938] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-02 09:07:09,177] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-02 09:07:11,441] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5637
+[2023-03-02 09:07:11,465] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/jquery-1.8.3.js HTTP/1.1" 304 0
+[2023-03-02 09:07:11,466] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/twitter-bootstrap_3.3.7_js_bootstrap.js HTTP/1.1" 304 0
+[2023-03-02 09:07:11,466] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/css/theme.css HTTP/1.1" 304 0
+[2023-03-02 09:07:11,477] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/summarize.js HTTP/1.1" 304 0
+[2023-03-02 09:07:11,480] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/images/img-1.jpg HTTP/1.1" 200 238501
+[2023-03-02 09:07:11,609] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-02 09:07:11,610] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 61211)
+
+[2023-03-02 09:07:42,008] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5453
+[2023-03-02 09:08:02,577] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5482
+[2023-03-02 09:08:33,251] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5529
+[2023-03-02 09:18:25,946] [generateApp.py:51] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-02 09:18:26,556] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-02 09:18:28,109] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-02 09:18:33,573] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5522
+[2023-03-02 09:18:33,627] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-02 09:18:33,628] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 61642)
+
+[2023-03-02 09:18:45,431] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 61643)
+
+[2023-03-02 09:18:45,513] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/summarize.js HTTP/1.1" 200 579
+[2023-03-02 09:19:06,698] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5522
+[2023-03-02 09:19:24,288] [generateApp.py:51] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-02 09:19:24,881] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-02 09:19:26,096] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-02 09:19:36,542] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5517
+[2023-03-02 09:19:36,577] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 200 751
+[2023-03-02 09:19:36,807] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 61660)
+
+[2023-03-02 09:50:31,288] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-02 09:50:31,289] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 58684)
+
+[2023-03-02 10:19:28,231] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-02 10:35:52,173] [generateApp.py:49] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-02 10:35:52,765] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-02 10:35:53,990] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-02 10:35:58,629] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5544
+[2023-03-02 10:35:58,671] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52799)
+
+[2023-03-02 10:35:58,672] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 200 547
+[2023-03-02 10:35:58,673] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52802)
+
+[2023-03-02 10:35:58,697] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52800)
+
+[2023-03-02 10:35:58,733] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-02 10:35:58,733] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 52801)
+
+[2023-03-02 10:36:07,543] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /home/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Home\views.py", line 25, in home_generate
+    return JsonResponse(outputContent, json_dumps_params={'ensure_ascii': False})
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\http\response.py", line 599, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+[2023-03-02 10:36:07,544] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /home/generate/ HTTP/1.1" 500 75113
+[2023-03-02 10:36:12,697] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /home/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Home\views.py", line 25, in home_generate
+    return JsonResponse(outputContent, json_dumps_params={'ensure_ascii': False})
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\http\response.py", line 599, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+[2023-03-02 10:36:12,698] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /home/generate/ HTTP/1.1" 500 75227
+[2023-03-02 10:36:17,511] [log.py:230] [log:log_response] [ERROR]- Internal Server Error: /home/generate/
+Traceback (most recent call last):
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\bryan\NLP\MyAiwrite\Home\views.py", line 25, in home_generate
+    return JsonResponse(outputContent, json_dumps_params={'ensure_ascii': False})
+  File "D:\programfiles\miniconda3\envs\aiwriter\lib\site-packages\django\http\response.py", line 599, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+[2023-03-02 10:36:17,511] [basehttp.py:161] [basehttp:log_message] [ERROR]- "POST /home/generate/ HTTP/1.1" 500 75081
+[2023-03-02 10:36:54,639] [generateApp.py:49] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-02 10:36:59,422] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-02 10:36:59,975] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-02 10:37:20,123] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5544
+[2023-03-02 10:37:20,155] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-02 10:38:06,727] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-02 10:38:06,795] [generateApp.py:49] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-02 10:38:07,396] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-02 10:38:08,861] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-02 10:38:13,065] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5544
+[2023-03-02 10:38:13,096] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-02 10:38:16,730] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/generate/ HTTP/1.1" 200 969
+[2023-03-02 10:38:38,069] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/generate/ HTTP/1.1" 200 1131
+[2023-03-02 10:39:33,220] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5536
+[2023-03-02 10:39:33,253] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-02 10:39:38,139] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/generate/ HTTP/1.1" 200 2034
+[2023-03-02 10:39:59,616] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 6940
+[2023-03-02 10:39:59,651] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/generate.js HTTP/1.1" 304 0
+[2023-03-02 10:41:19,181] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 30757
+[2023-03-02 10:41:19,873] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5536
+[2023-03-02 10:41:19,899] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-02 10:41:46,263] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 6940
+[2023-03-02 10:42:42,594] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 6940
+[2023-03-02 10:42:43,622] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 30757
+[2023-03-02 10:42:43,907] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5544
+[2023-03-02 10:42:43,934] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-02 10:42:45,353] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5544
+[2023-03-02 10:44:42,464] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/generate/ HTTP/1.1" 200 1029
+[2023-03-02 10:59:10,822] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-02 10:59:10,886] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-02 10:59:11,504] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-02 10:59:12,999] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-02 10:59:14,236] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5544
+[2023-03-02 10:59:14,284] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-02 10:59:16,643] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 6419
+[2023-03-02 10:59:33,635] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /titleGenerate/generate/ HTTP/1.1" 200 3211
+[2023-03-02 11:00:34,366] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 6940
+[2023-03-02 11:00:42,979] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_abstract/ HTTP/1.1" 200 61
+[2023-03-02 11:00:50,224] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_abstract/ HTTP/1.1" 200 61
+[2023-03-02 11:00:56,204] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /abstractGenerate/generate/ HTTP/1.1" 200 2851
+[2023-03-02 11:01:36,342] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_abstract/ HTTP/1.1" 200 1235
+[2023-03-02 11:01:42,542] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /abstractGenerate/generate/ HTTP/1.1" 200 4008
+[2023-03-02 11:01:53,556] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 7683
+[2023-03-02 11:02:04,823] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_abstract/ HTTP/1.1" 200 1235
+[2023-03-02 11:02:07,116] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_outline/ HTTP/1.1" 200 148
+[2023-03-02 11:02:54,706] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_abstract/ HTTP/1.1" 200 1235
+[2023-03-02 11:03:15,070] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /outlineGenerate/ HTTP/1.1" 200 7683
+[2023-03-02 11:03:55,440] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 6940
+[2023-03-02 11:03:55,503] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-02 11:03:55,503] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 61295)
+
+[2023-03-02 11:04:00,955] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /get_abstract/ HTTP/1.1" 200 40
+[2023-03-02 11:04:15,832] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5544
+[2023-03-02 11:04:15,854] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 304 0
+[2023-03-02 11:04:15,889] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-02 11:04:15,889] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 61316)
+
+[2023-03-02 11:04:26,765] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 61300)
+
+[2023-03-02 11:04:32,793] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-02 11:04:32,871] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-02 11:04:33,499] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-02 11:04:34,725] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-02 11:04:36,388] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5544
+[2023-03-02 11:04:36,443] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-02 11:04:36,443] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 61342)
+
+[2023-03-02 11:04:39,736] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /home/generate/ HTTP/1.1" 200 996
+[2023-03-02 11:06:04,456] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-02 11:06:04,527] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-02 11:06:05,133] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-02 11:06:06,654] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-02 11:06:10,041] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /titleGenerate/ HTTP/1.1" 200 6419
+[2023-03-02 11:06:10,100] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-02 11:06:10,100] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 61365)
+
+[2023-03-02 11:06:23,510] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /titleGenerate/generate/ HTTP/1.1" 200 4159
+[2023-03-02 12:04:39,077] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-02 12:04:39,146] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-02 12:04:39,744] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-02 12:04:41,297] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-02 12:05:11,575] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-02 12:05:11,649] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-02 12:05:12,278] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
+[2023-03-02 12:05:13,467] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-02 12:05:26,999] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6180
+[2023-03-02 12:05:27,029] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/summarize.js HTTP/1.1" 200 579
+[2023-03-02 12:05:27,083] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-03-02 12:05:27,084] [basehttp.py:75] [basehttp:handle_error] [INFO]- - Broken pipe from ('127.0.0.1', 64176)
+
+[2023-03-02 12:05:28,983] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 5544
+[2023-03-02 12:05:29,011] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /static/js/home.js HTTP/1.1" 200 547
+[2023-03-02 12:05:29,755] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /news/ HTTP/1.1" 200 31667
+[2023-03-02 12:05:40,216] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /abstractGenerate/ HTTP/1.1" 200 6940
+[2023-03-02 12:05:40,991] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /summarize/ HTTP/1.1" 200 6180
+[2023-03-02 13:19:28,832] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫

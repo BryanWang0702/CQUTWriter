@@ -1,0 +1,187 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    模板生成
+{% endblock %}
+
+
+{% block content %}
+
+    <h1 class="heading h1 strong-600 text-center mb-5">
+        根据模板生成文章
+    </h1>
+    <!-- 模板生成 -->
+    <div class="tab-pane fade" id="template_tab" role="tabpanel">
+        <p>这里将会展示一些模板供选择</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul class="nav nav-pills nav-fill flex-column flex-sm-row" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link mb-sm-3 active" id="home-tab" data-toggle="tab" href="#sports" role="tab"
+                           aria-controls="home" aria-selected="true">运动</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mb-sm-3" id="profile-tab" data-toggle="tab" href="#fun" role="tab"
+                           aria-controls="profile" aria-selected="false">娱乐</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mb-sm-3" id="contact-tab" data-toggle="tab" href="#tech" role="tab"
+                           aria-controls="contact" aria-selected="false">科技</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="sports" role="tabpanel" aria-labelledby="sports-tab">
+                        <div class="container">
+                            <div class="row cols-xs-space cols-sm-space cols-md-space">
+                                <div class="col-lg-6">
+                                    <div class="card bg-dark alpha-container text-white border-0 overflow-hidden">
+                                        <a href="#" target="_blank">
+                                            <div class="card-body px-5 py-5">
+                                                <div style="min-height: 300px;">
+                                                    <h3 class="heading h1 text-white mb-3">运动新闻标题</h3>
+                                                    <p class="mt-4 mb-1 h5 text-white lh-180">
+                                                        大纲展示
+                                                    </p>
+                                                    <p class="mb-1 h5 text-white lh-180">
+                                                        摘要
+                                                    </p>
+                                                </div>
+                                                <span href="#" class="text-white text-uppercase font-weight-500">
+                                                      立即开始
+                                                            <i class="fas fa-arrow-right ml-2"></i>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="card bg-dark alpha-container text-white border-0 overflow-hidden">
+                                        <a href="#" target="_blank">
+                                            <div class="card-body px-5 py-5">
+                                                <div style="min-height: 300px;">
+                                                    <h3 class="heading h1 text-white mb-3">运动新闻标题</h3>
+                                                    <p class="mt-4 mb-1 h5 text-white lh-180">
+                                                        大纲展示
+                                                    </p>
+                                                    <p class="mb-1 h5 text-white lh-180">
+                                                        摘要
+                                                    </p>
+                                                </div>
+                                                <span href="#" class="text-white text-uppercase font-weight-500">
+                                                      立即开始
+                                                            <i class="fas fa-arrow-right ml-2"></i>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="fun" role="tabpanel" aria-labelledby="fun-tab">
+                        <div class="container">
+                            <div class="row cols-xs-space cols-sm-space cols-md-space">
+                                <div class="col-lg-6">
+                                    <div class="card bg-dark alpha-container text-white border-0 overflow-hidden">
+                                        <a href="#" target="_blank">
+                                            <div class="card-body px-5 py-5">
+                                                <div style="min-height: 300px;">
+                                                    <h3 class="heading h1 text-white mb-3">娱乐新闻标题</h3>
+                                                    <p class="mt-4 mb-1 h5 text-white lh-180">
+                                                        大纲展示
+                                                    </p>
+                                                    <p class="mb-1 h5 text-white lh-180">
+                                                        摘要
+                                                    </p>
+                                                </div>
+                                                <span href="#" class="text-white text-uppercase font-weight-500">
+                                                      立即开始
+                                                            <i class="fas fa-arrow-right ml-2"></i>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="card bg-dark alpha-container text-white border-0 overflow-hidden">
+                                        <a href="#" target="_blank">
+                                            <div class="card-body px-5 py-5">
+                                                <div style="min-height: 300px;">
+                                                    <h3 class="heading h1 text-white mb-3">娱乐新闻标题</h3>
+                                                    <p class="mt-4 mb-1 h5 text-white lh-180">
+                                                        大纲展示
+                                                    </p>
+                                                    <p class="mb-1 h5 text-white lh-180">
+                                                        摘要
+                                                    </p>
+                                                </div>
+                                                <span href="#" class="text-white text-uppercase font-weight-500">
+                                                      立即开始
+                                                            <i class="fas fa-arrow-right ml-2"></i>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tech" role="tabpanel" aria-labelledby="tech-tab">
+                        <div class="container">
+                            <div class="row cols-xs-space cols-sm-space cols-md-space">
+                                <div class="col-lg-6">
+                                    <div class="card bg-dark alpha-container text-white border-0 overflow-hidden">
+                                        <a href="#" target="_blank">
+                                            <div class="card-body px-5 py-5">
+                                                <div style="min-height: 300px;">
+                                                    <h3 class="heading h1 text-white mb-3">科技新闻标题</h3>
+                                                    <p class="mt-4 mb-1 h5 text-white lh-180">
+                                                        大纲展示
+                                                    </p>
+                                                    <p class="mb-1 h5 text-white lh-180">
+                                                        摘要
+                                                    </p>
+                                                </div>
+                                                <span href="#" class="text-white text-uppercase font-weight-500">
+                                                      立即开始
+                                                            <i class="fas fa-arrow-right ml-2"></i>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="card bg-dark alpha-container text-white border-0 overflow-hidden">
+                                        <a href="#" target="_blank">
+                                            <div class="card-body px-5 py-5">
+                                                <div style="min-height: 300px;">
+                                                    <h3 class="heading h1 text-white mb-3">科技新闻标题</h3>
+                                                    <p class="mt-4 mb-1 h5 text-white lh-180">
+                                                        大纲展示
+                                                    </p>
+                                                    <p class="mb-1 h5 text-white lh-180">
+                                                        摘要
+                                                    </p>
+                                                </div>
+                                                <span href="#" class="text-white text-uppercase font-weight-500">
+                                                      立即开始
+                                                            <i class="fas fa-arrow-right ml-2"></i>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+{% endblock %}

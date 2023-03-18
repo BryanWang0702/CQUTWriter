@@ -1,0 +1,4 @@
+[2023-03-06 17:26:06,927] [homeApp.py:38] [homeApp:__init__] [INFO]- 已初始化HomeApp
+[2023-03-06 17:26:07,093] [generateApp.py:50] [generateApp:__init__] [INFO]- 已初始化GenerateApp
+[2023-03-06 17:26:08,671] [newsApp.py:73] [newsApp:update_news] [INFO]- 更新一次爬虫
+[2023-03-06 17:26:08,922] [summarizeApp.py:47] [summarizeApp:__init__] [INFO]- 已初始化SummarizeApp
